@@ -1,0 +1,22 @@
+{
+    "tdk": {
+        "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "private_key": "C:\\Users\\Khiem\\Documents\\NMATBMTT\\FIT4012-Secure-Chat\\web\\keys\\tdk_private.pem",
+        "public_key": "C:\\Users\\Khiem\\Documents\\NMATBMTT\\FIT4012-Secure-Chat\\web\\keys\\tdk_public.pem"
+    },
+    "lvh": {
+        "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "private_key": "C:\\Users\\Khiem\\Documents\\NMATBMTT\\FIT4012-Secure-Chat\\web\\keys\\lvh_private.pem",
+        "public_key": "C:\\Users\\Khiem\\Documents\\NMATBMTT\\FIT4012-Secure-Chat\\web\\keys\\lvh_public.pem"
+    },
+    "lny": {
+        "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "private_key": "C:\\Users\\Khiem\\Documents\\NMATBMTT\\FIT4012-Secure-Chat\\web\\keys\\lny_private.pem",
+        "public_key": "C:\\Users\\Khiem\\Documents\\NMATBMTT\\FIT4012-Secure-Chat\\web\\keys\\lny_public.pem"
+    },
+    "tvb": {
+        "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "private_key": "C:\\Users\\Khiem\\Documents\\NMATBMTT\\FIT4012-Secure-Chat\\web\\keys\\tvb_private.pem",
+        "public_key": "C:\\Users\\Khiem\\Documents\\NMATBMTT\\FIT4012-Secure-Chat\\web\\keys\\tvb_public.pem"
+    }
+}

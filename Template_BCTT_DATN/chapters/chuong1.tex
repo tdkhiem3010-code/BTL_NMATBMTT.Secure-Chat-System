@@ -1,0 +1,92 @@
+\chapter{CƠ SỞ LÝ THUYẾT VÀ CÔNG NGHỆ SỬ DỤNG}
+
+\section{Giới thiệu đề tài}
+
+Trong những năm gần đây, sự phát triển mạnh mẽ của Internet và các nền tảng truyền thông trực tuyến đã làm gia tăng nhu cầu trao đổi thông tin giữa người dùng. Tuy nhiên, đi kèm với sự phát triển đó là nhiều nguy cơ mất an toàn thông tin như nghe lén dữ liệu, giả mạo người gửi, thay đổi nội dung thông điệp hay tấn công phát lại (Replay Attack). Vì vậy, việc xây dựng các hệ thống truyền thông có khả năng bảo vệ dữ liệu trong quá trình truyền tải là một yêu cầu rất quan trọng.
+
+Đề tài \textbf{Secure Chat System with Cryptographic Security} được thực hiện nhằm xây dựng một hệ thống nhắn tin trực tuyến theo thời gian thực, đồng thời tích hợp các cơ chế bảo mật hiện đại để bảo đảm tính bí mật, tính toàn vẹn và tính xác thực của dữ liệu. Hệ thống không chỉ hỗ trợ trao đổi thông tin giữa các người dùng mà còn mô phỏng nhiều hình thức tấn công phổ biến trong lĩnh vực An toàn thông tin nhằm đánh giá hiệu quả của các cơ chế bảo mật đã triển khai.
+
+\section{Tổng quan về hệ thống nhắn tin bảo mật}
+
+Hệ thống nhắn tin bảo mật là ứng dụng cho phép nhiều người dùng trao đổi thông tin thông qua mạng Internet trong khi dữ liệu luôn được bảo vệ khỏi các nguy cơ bị đánh cắp hoặc chỉnh sửa.
+
+Khác với các hệ thống nhắn tin thông thường chỉ tập trung vào chức năng truyền tải dữ liệu, hệ thống nhắn tin bảo mật còn phải đảm bảo các yêu cầu sau:
+
+\begin{itemize}
+\item Tính bí mật (Confidentiality): chỉ người gửi và người nhận mới có thể đọc được nội dung tin nhắn.
+\item Tính toàn vẹn (Integrity): dữ liệu không bị thay đổi trong quá trình truyền tải.
+\item Tính xác thực (Authentication): xác minh đúng danh tính người gửi.
+\item Khả năng chống phát lại (Replay Protection): ngăn chặn việc sử dụng lại các gói tin cũ.
+\end{itemize}
+
+Để đáp ứng các yêu cầu trên, hệ thống sử dụng kết hợp nhiều thuật toán mật mã hiện đại cùng các cơ chế quản lý phiên làm việc.
+
+\section{Các công nghệ sử dụng}
+
+Trong quá trình phát triển hệ thống, nhóm sử dụng nhiều công nghệ khác nhau nhằm đáp ứng yêu cầu về hiệu năng, khả năng mở rộng và tính bảo mật.
+
+\subsection{Python}
+
+Python là ngôn ngữ lập trình chính được sử dụng để xây dựng hệ thống. Python có cú pháp đơn giản, dễ phát triển và hỗ trợ nhiều thư viện phục vụ cho lập trình Web cũng như An toàn thông tin.
+
+\subsection{Flask}
+
+Flask là một Web Framework nhỏ gọn của Python, được sử dụng để xây dựng Web Server và xử lý các yêu cầu từ phía người dùng.
+
+\subsection{Flask-SocketIO}
+
+Flask-SocketIO cung cấp khả năng giao tiếp thời gian thực giữa Client và Server thông qua giao thức WebSocket. Nhờ đó hệ thống có thể gửi và nhận tin nhắn ngay lập tức mà không cần tải lại trang.
+
+\subsection{HTML, CSS và JavaScript}
+
+Ba công nghệ này được sử dụng để xây dựng giao diện người dùng, xử lý các thao tác trên trình duyệt và hiển thị kết quả một cách trực quan.
+
+\subsection{Git và GitHub}
+
+Git được sử dụng để quản lý phiên bản mã nguồn, trong khi GitHub hỗ trợ lưu trữ mã nguồn và làm việc nhóm.
+
+\section{Các thuật toán mật mã được sử dụng}
+
+\subsection{RSA}
+
+RSA là thuật toán mật mã khóa công khai được sử dụng rộng rãi trong các hệ thống bảo mật. Thuật toán này sử dụng một cặp khóa gồm khóa công khai và khóa bí mật để thực hiện mã hóa hoặc ký số.
+
+\subsection{RSA-OAEP}
+
+RSA-OAEP được sử dụng để mã hóa khóa phiên AES trước khi truyền đến người nhận. Việc sử dụng OAEP giúp tăng cường khả năng chống lại các cuộc tấn công vào RSA truyền thống.
+
+\subsection{AES-GCM}
+
+AES-GCM là thuật toán mã hóa đối xứng được sử dụng để mã hóa nội dung tin nhắn. Ngoài việc đảm bảo tính bí mật của dữ liệu, AES-GCM còn sinh ra Authentication Tag giúp kiểm tra tính toàn vẹn của thông điệp.
+
+\subsection{RSA-PSS}
+
+RSA-PSS được sử dụng để tạo chữ ký số cho từng gói tin. Chữ ký số giúp người nhận xác minh đúng người gửi và phát hiện mọi thay đổi của dữ liệu trong quá trình truyền tải.
+
+\section{Các cơ chế bảo mật}
+
+Ngoài các thuật toán mật mã, hệ thống còn triển khai nhiều cơ chế bảo mật nhằm tăng khả năng chống tấn công.
+
+\subsection{Session ID}
+
+Mỗi phiên làm việc được gán một Session ID duy nhất để quản lý kết nối giữa hai người dùng.
+
+\subsection{Message ID}
+
+Mỗi tin nhắn được sinh ra một Message ID duy nhất nhằm phục vụ việc phát hiện các gói tin bị phát lại.
+
+\subsection{Sequence Number}
+
+Sequence Number tăng dần sau mỗi lần gửi tin nhắn. Khi phát hiện số thứ tự không hợp lệ, hệ thống sẽ từ chối xử lý gói tin.
+
+\subsection{Replay Detector}
+
+Replay Detector lưu trữ các Message ID đã xử lý. Nếu một Message ID xuất hiện nhiều lần, hệ thống sẽ xác định đây là Replay Attack.
+
+\subsection{Session Key Rotation}
+
+Sau một số lượng tin nhắn nhất định, hệ thống tự động sinh khóa phiên mới nhằm hạn chế nguy cơ lộ khóa nếu khóa phiên hiện tại bị đánh cắp.
+
+\section{Kết luận chương}
+
+Chương này đã trình bày các cơ sở lý thuyết và những công nghệ được sử dụng trong quá trình xây dựng hệ thống Secure Chat System with Cryptographic Security. Các kiến thức về lập trình Web, giao tiếp thời gian thực, mật mã học và các cơ chế bảo mật là nền tảng quan trọng để triển khai hệ thống được trình bày trong các chương tiếp theo.

@@ -1,0 +1,13 @@
+\UnnumberedChapter{KẾT LUẬN}
+
+Sau quá trình nghiên cứu và thực hiện đề tài \textbf{Secure Chat System with Cryptographic Security}, nhóm đã hoàn thành việc xây dựng một hệ thống nhắn tin thời gian thực có tích hợp nhiều cơ chế bảo mật hiện đại nhằm đảm bảo tính bảo mật, toàn vẹn và xác thực của dữ liệu trong quá trình truyền thông.
+
+Hệ thống đã triển khai thành công các thuật toán mật mã gồm \textbf{RSA-OAEP} để trao đổi khóa phiên, \textbf{AES-GCM} để mã hóa và xác thực dữ liệu, cùng với \textbf{RSA-PSS} để ký số và xác minh người gửi. Bên cạnh đó, hệ thống còn tích hợp các cơ chế bảo mật như \textbf{Replay Detector}, \textbf{Sequence Number Validation}, \textbf{Session ID}, \textbf{Message ID} và \textbf{Session Key Rotation}, góp phần nâng cao khả năng phòng chống các hình thức tấn công phổ biến đối với hệ thống nhắn tin.
+
+Thông qua quá trình xây dựng và kiểm thử, hệ thống đã chứng minh khả năng phát hiện và ngăn chặn hiệu quả các kịch bản tấn công như thay đổi nội dung bản mã (Modify Ciphertext), thay đổi số thứ tự gói tin (Modify Sequence Number), phát lại gói tin (Replay Attack), sử dụng khóa phiên không hợp lệ (Wrong Session Key) và giả mạo người gửi (Fake Sender). Các kết quả kiểm thử cho thấy những cơ chế bảo mật được triển khai hoạt động ổn định và đáp ứng đúng mục tiêu đề ra.
+
+Trong quá trình thực hiện đề tài, nhóm đã củng cố được nhiều kiến thức về mật mã học, an toàn thông tin, lập trình ứng dụng Web và phát triển hệ thống theo mô hình Client--Server. Đồng thời, nhóm cũng rèn luyện được kỹ năng nghiên cứu tài liệu, làm việc nhóm, phân tích yêu cầu, thiết kế hệ thống và giải quyết các vấn đề phát sinh trong quá trình phát triển phần mềm.
+
+Mặc dù đã đạt được các mục tiêu chính, hệ thống vẫn còn một số hạn chế như chưa triển khai lưu trữ khóa trên phần cứng chuyên dụng, chưa hỗ trợ xác thực đa yếu tố (Multi-Factor Authentication), chưa tích hợp cơ chế mã hóa đầu cuối (End-to-End Encryption) hoàn chỉnh cho nhiều thiết bị và chưa đánh giá hiệu năng trên quy mô lớn.
+
+Trong thời gian tới, nhóm dự định tiếp tục phát triển hệ thống theo các hướng như bổ sung xác thực đa yếu tố, triển khai cơ chế End-to-End Encryption hoàn chỉnh, tối ưu hiệu năng khi số lượng người dùng tăng cao, hỗ trợ nhiều nền tảng khác nhau và nghiên cứu tích hợp các thuật toán mật mã hậu lượng tử (Post-Quantum Cryptography) nhằm nâng cao hơn nữa khả năng bảo mật của hệ thống.

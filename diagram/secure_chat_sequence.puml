@@ -1,0 +1,50 @@
+@startuml
+
+actor Alice
+actor Bob
+
+participant SecureSender
+participant MessageProcessor
+participant RSA_Signature
+participant AES_GCM_Encrypt
+participant MessagePacket
+participant SecureReceiver
+participant ReplayDetector
+participant AES_GCM_Decrypt
+participant RSA_Verify
+
+Alice -> SecureSender : send plaintext
+
+SecureSender -> MessageProcessor : create_packet()
+
+MessageProcessor -> RSA_Signature : sign_message()
+
+Sign --> MessageProcessor : signature
+
+MessageProcessor -> AES_GCM_Encrypt : encrypt_message()
+
+Encrypt --> MessageProcessor : ciphertext
+
+MessageProcessor -> MessagePacket : create()
+
+MessagePacket --> SecureReceiver : transmit packet
+
+SecureReceiver -> ReplayDetector : is_replay()
+
+ReplayDetector --> SecureReceiver : false
+
+SecureReceiver -> ReplayDetector : is_valid_sequence()
+
+ReplayDetector --> SecureReceiver : true
+
+SecureReceiver -> AES_GCM_Decrypt : decrypt_message()
+
+Decrypt --> SecureReceiver : plaintext
+
+SecureReceiver -> RSA_Verify : verify_signature()
+
+Verify --> SecureReceiver : valid
+
+SecureReceiver -> Bob : display message
+
+@enduml

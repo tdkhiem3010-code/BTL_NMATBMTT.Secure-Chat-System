@@ -1,0 +1,138 @@
+\chapter{KẾT QUẢ THỰC HIỆN ĐỀ TÀI}
+
+\section{Tóm tắt nội dung đã thực hiện}
+
+Sau quá trình nghiên cứu, thiết kế và xây dựng hệ thống, nhóm đã hoàn thành đề tài \textbf{Secure Chat System with Cryptographic Security} dưới dạng một ứng dụng Web hỗ trợ nhắn tin thời gian thực kết hợp nhiều cơ chế bảo mật hiện đại.
+
+Trong quá trình thực hiện, nhóm đã hoàn thành các nội dung chính sau:
+
+\begin{itemize}
+    \item Thiết kế giao diện đăng ký, đăng nhập và nhắn tin.
+    \item Xây dựng hệ thống truyền tin thời gian thực bằng Flask-SocketIO.
+    \item Áp dụng RSA-OAEP để trao đổi khóa phiên.
+    \item Áp dụng AES-GCM để mã hóa và giải mã nội dung tin nhắn.
+    \item Áp dụng RSA-PSS để ký số và xác thực người gửi.
+    \item Quản lý Session ID, Message ID và Sequence Number.
+    \item Xây dựng Replay Detector nhằm phát hiện Replay Attack.
+    \item Xây dựng Session Key Rotation nhằm tăng cường bảo mật.
+    \item Thiết kế bảng Security Information hiển thị đầy đủ thông tin bảo mật của từng gói tin.
+    \item Xây dựng các chức năng mô phỏng các cuộc tấn công bảo mật để kiểm thử hệ thống.
+\end{itemize}
+
+Kết quả đạt được đáp ứng đầy đủ các mục tiêu đặt ra ban đầu, đồng thời minh họa trực quan quá trình hoạt động của các cơ chế bảo mật trong một hệ thống truyền thông an toàn.
+
+\section{Sản phẩm đã xây dựng}
+
+Sản phẩm của đề tài là hệ thống:
+
+\begin{center}
+\textbf{Secure Chat System with Cryptographic Security}
+\end{center}
+
+Hệ thống được xây dựng dưới dạng ứng dụng Web cho phép nhiều người dùng trao đổi tin nhắn theo thời gian thực, đồng thời bảo đảm tính bảo mật, tính toàn vẹn và tính xác thực của dữ liệu.
+
+Các chức năng chính của hệ thống gồm:
+
+\begin{itemize}
+    \item Đăng ký tài khoản.
+    \item Đăng nhập người dùng.
+    \item Hiển thị danh sách người dùng trực tuyến.
+    \item Gửi và nhận tin nhắn thời gian thực.
+    \item Trao đổi khóa RSA-OAEP.
+    \item Mã hóa nội dung bằng AES-GCM.
+    \item Ký số RSA-PSS.
+    \item Phát hiện Replay Attack.
+    \item Session Key Rotation.
+    \item Hiển thị Security Information.
+    \item Mô phỏng các cuộc tấn công bảo mật.
+\end{itemize}
+
+Các công nghệ sử dụng được trình bày trong Bảng \ref{tab:cong-nghe-su-dung}.
+
+\begin{table}[H]
+\centering
+\caption{Danh sách công nghệ sử dụng}
+\label{tab:cong-nghe-su-dung}
+
+\begin{tabular}{|c|p{4cm}|p{8cm}|}
+\hline
+\textbf{STT} & \textbf{Công nghệ/Công cụ} & \textbf{Mục đích sử dụng} \\
+\hline
+1 & Python & Ngôn ngữ lập trình chính. \\
+\hline
+2 & Flask & Xây dựng Web Server. \\
+\hline
+3 & Flask-SocketIO & Truyền dữ liệu thời gian thực. \\
+\hline
+4 & HTML/CSS/JavaScript & Thiết kế giao diện Web. \\
+\hline
+5 & RSA-OAEP & Trao đổi khóa phiên. \\
+\hline
+6 & AES-GCM & Mã hóa nội dung tin nhắn. \\
+\hline
+7 & RSA-PSS & Ký số và xác thực người gửi. \\
+\hline
+8 & Git/GitHub & Quản lý mã nguồn. \\
+\hline
+9 & Visual Studio Code & Môi trường phát triển. \\
+\hline
+10 & Cryptography Library & Thực hiện các thuật toán mật mã. \\
+\hline
+\end{tabular}
+
+\Nguon{Nhóm tác giả tổng hợp}
+
+\end{table}
+
+\section{Kỹ năng đã rèn luyện được}
+
+\subsection{Kỹ năng chuyên môn}
+
+Thông qua quá trình thực hiện đề tài, nhóm đã rèn luyện được các kỹ năng sau:
+
+\begin{itemize}
+    \item Thiết kế hệ thống phần mềm.
+    \item Lập trình Web bằng Flask.
+    \item Lập trình Socket.IO thời gian thực.
+    \item Áp dụng các thuật toán mật mã hiện đại.
+    \item Thiết kế giao diện Web.
+    \item Đọc hiểu tài liệu kỹ thuật tiếng Anh.
+    \item Kiểm thử và tối ưu hệ thống.
+    \item Quản lý mã nguồn bằng Git và GitHub.
+\end{itemize}
+
+\subsection{Kỹ năng mềm}
+
+Ngoài kiến thức chuyên môn, nhóm còn rèn luyện được:
+
+\begin{itemize}
+    \item Làm việc nhóm.
+    \item Quản lý tiến độ dự án.
+    \item Phân chia công việc.
+    \item Giải quyết vấn đề.
+    \item Tự nghiên cứu công nghệ mới.
+    \item Viết tài liệu kỹ thuật.
+    \item Thuyết trình sản phẩm.
+\end{itemize}
+
+\section{Đề xuất phát triển hệ thống}
+
+Trong tương lai, hệ thống có thể tiếp tục phát triển theo các hướng sau:
+
+\begin{itemize}
+    \item Hoàn thiện cơ chế End-to-End Encryption.
+    \item Lưu trữ lịch sử tin nhắn bằng cơ sở dữ liệu.
+    \item Hỗ trợ gửi hình ảnh và tập tin.
+    \item Phát triển phiên bản Mobile.
+    \item Tích hợp xác thực hai lớp (2FA).
+    \item Triển khai trên nền tảng Cloud.
+    \item Xây dựng Dashboard thống kê các sự kiện bảo mật.
+\end{itemize}
+
+\section{Đánh giá kết quả thực hiện}
+
+Đề tài đã hoàn thành đầy đủ các mục tiêu đặt ra. Hệ thống hoạt động ổn định, cho phép truyền tin theo thời gian thực đồng thời áp dụng thành công nhiều cơ chế bảo mật như RSA-OAEP, AES-GCM, RSA-PSS, Replay Detection và Session Key Rotation.
+
+Ngoài ra, việc xây dựng các chức năng mô phỏng tấn công giúp minh họa rõ khả năng phát hiện và ngăn chặn các hành vi tấn công thường gặp trong truyền thông mạng, góp phần nâng cao giá trị thực tiễn của đề tài.
+
+Thông qua quá trình thực hiện, nhóm đã củng cố kiến thức về An toàn thông tin, Mật mã học, Lập trình Web và quy trình phát triển phần mềm, đồng thời tích lũy được nhiều kinh nghiệm phục vụ cho các nghiên cứu và dự án trong tương lai.

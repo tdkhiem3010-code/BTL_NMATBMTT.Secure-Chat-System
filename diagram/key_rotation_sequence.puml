@@ -1,0 +1,33 @@
+@startuml
+
+actor Alice
+actor Bob
+
+participant SessionManager
+
+Alice -> SessionManager : Message 1
+SessionManager --> Alice : count = 1
+
+Alice -> SessionManager : Message 2
+SessionManager --> Alice : count = 2
+
+Alice -> SessionManager : Message 3
+SessionManager --> Alice : count = 3
+
+Alice -> SessionManager : Message 4
+SessionManager --> Alice : count = 4
+
+Alice -> SessionManager : Message 5
+SessionManager --> Alice : count = 5
+
+SessionManager -> SessionManager : need_rotation()
+
+SessionManager -> SessionManager : generate_session_key()
+
+SessionManager -> Alice : update_session_key()
+
+SessionManager -> Bob : update_session_key()
+
+Alice -> Bob : Message 6 using new session key
+
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+
+actor Alice
+actor Bob
+
+participant SecureReceiver
+participant ReplayDetector
+
+Alice -> SecureReceiver : Packet #1
+
+SecureReceiver -> ReplayDetector : is_replay()
+
+ReplayDetector --> SecureReceiver : false
+
+SecureReceiver -> Bob : Hello Bob
+
+Alice -> SecureReceiver : Same Packet
+
+SecureReceiver -> ReplayDetector : is_replay()
+
+ReplayDetector --> SecureReceiver : true
+
+SecureReceiver -> Bob : REPLAY ATTACK DETECTED
+
+@enduml

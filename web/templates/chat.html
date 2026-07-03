@@ -1,0 +1,219 @@
+<body>
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/chat.css') }}"
+>
+
+<div class="header">
+
+    <div>
+
+        <h1>
+            🔐 Secure Chat
+        </h1>
+
+        <p>
+
+            Welcome,
+            <b>{{ username }}</b>
+
+        </p>
+
+    </div>
+
+    <a href="/logout">
+
+        Logout
+
+    </a>
+
+</div>
+
+<div class="main">
+
+    <div class="users">
+
+        <h2>
+
+            🟢 Online Users
+
+        </h2>
+
+        <div id="onlineUsers">
+
+            Loading...
+
+        </div>
+
+        <div class="user-tip">
+
+        Select a user to start chatting.
+
+        </div>
+
+    </div>
+
+    <div class="chat">
+
+        <div class="chat-header">
+
+            <div class="chat-user">
+
+                <div class="avatar">
+                    👤
+                </div>
+
+                <div class="chat-user-info">
+
+                    <h3 id="selectedUser">
+                        Nobody
+                    </h3>
+
+                    <span class="chat-status">
+                        Waiting for user...
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="messages">
+
+        </div>
+
+        <div class="bottom">
+
+            <input
+                id="messageInput"
+                type="text"
+                placeholder="Type a secure message..."
+                autocomplete="off"
+            >
+
+            <button
+                id="sendButton"
+                onclick="sendMessage()"
+            >
+                ➤
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="security">
+
+        <h2>
+
+            🛡 Security Panel
+
+        </h2>
+
+    <div class="card" id="security">
+
+        <h2>
+
+        🔒 Message Security Information
+
+        </h2>
+
+        <div class="security-item">
+            <b>Plaintext</b>
+            <div id="plainText">Waiting...</div>
+        </div>
+
+        <div class="security-item">
+            <b>AES Ciphertext</b>
+            <div id="cipherText">Waiting...</div>
+        </div>
+
+        <div class="security-item">
+            <b>Nonce</b>
+            <div id="nonce">Waiting...</div>
+        </div>
+
+        <div class="security-item">
+            <b>RSA Signature</b>
+            <div id="signature">Waiting...</div>
+        </div>
+
+        <div class="security-item">
+            <b>Session ID</b>
+            <div id="sessionId">Waiting...</div>
+        </div>
+
+        <div class="security-item">
+            <b>Sequence Number</b>
+            <div id="sequence">Waiting...</div>
+        </div>
+
+        <div class="security-item">
+            <b>Message ID</b>
+            <div id="messageId">Waiting...</div>
+        </div>
+
+        <div class="security-item">
+            <b>Timestamp</b>
+            <div id="timestamp">Waiting...</div>
+        </div>
+
+        <div class="security-item">
+            <b>Security Status</b>
+            <div id="securityStatus">Waiting...</div>
+        </div>
+
+        <hr>
+
+        <hr>
+
+        <h3>
+
+        ⚠ Attack Simulation
+
+        </h3>
+
+        <div id="attackMode" class="attack-mode">
+            All attacks OFF
+        </div>
+
+        <button id="btnNormal" onclick="disableAttacks()">
+            Normal Message
+        </button>
+
+        <button id="btnCipher" onclick="toggleCipherAttack()">
+            Modify Ciphertext
+        </button>
+
+        <button id="btnSequence" onclick="toggleSequenceAttack()">
+            Modify Sequence
+        </button>
+
+        <button id="btnReplay" onclick="replayAttack()">
+            Replay Attack
+        </button>
+
+        <button id="btnWrongKey" onclick="toggleWrongKey()">
+            Wrong Session Key
+        </button>
+
+        <button id="btnFakeSender" onclick="toggleFakeSender()">
+            Fake Sender
+        </button>
+
+    </div>
+
+    </div>
+
+</div>
+
+<script>
+const CURRENT_USER = "{{ current_user }}";
+</script>
+
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+
+</body>
