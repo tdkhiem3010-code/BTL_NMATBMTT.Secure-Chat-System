@@ -6,6 +6,8 @@
 
 Trong quá trình thực hiện đề tài, nhóm tiến hành nghiên cứu các kiến thức về mật mã học, an toàn thông tin và lập trình ứng dụng Web nhằm xây dựng một hệ thống nhắn tin có khả năng bảo mật dữ liệu trong quá trình truyền thông.
 
+Đề tài được triển khai theo một quy trình gồm khảo sát yêu cầu, thiết kế kiến trúc, xây dựng module bảo mật, tích hợp giao diện người dùng và kiểm thử toàn diện. Mỗi giai đoạn đều được phân công rõ ràng để đảm bảo tiến độ và chất lượng sản phẩm. Việc đặt nền móng từ phân tích yêu cầu giúp nhóm xác định đúng các chức năng cần triển khai và ưu tiên các thành phần có tính bảo mật cao.
+
 Đề tài được triển khai theo nhiều giai đoạn, từ khảo sát yêu cầu, thiết kế kiến trúc hệ thống, xây dựng giao diện người dùng, lập trình các chức năng chính, tích hợp các thuật toán mật mã cho đến kiểm thử và đánh giá toàn bộ hệ thống.
 
 Các công nghệ và công cụ được sử dụng gồm:
@@ -87,6 +89,12 @@ Sequence Number được sử dụng để kiểm tra thứ tự của các gói
 \end{figure}
 
 Sau khi thực hiện các tình huống trên, hệ thống đều đưa ra cảnh báo tương ứng trên bảng Security Information. Điều này chứng minh các cơ chế bảo mật được triển khai có khả năng phát hiện hiệu quả các hành vi tấn công và đảm bảo tính bí mật, toàn vẹn cũng như xác thực của dữ liệu trong quá trình truyền thông.
+
+\section{Kiến trúc hệ thống và luồng xử lý dữ liệu}
+
+Hệ thống được thiết kế theo mô hình Client--Server nhằm tách riêng phần giao diện người dùng và phần xử lý logic bảo mật. Máy chủ chịu trách nhiệm quản lý người dùng, tạo và duy trì phiên làm việc, kiểm tra tính hợp lệ của các gói tin và xử lý các cơ chế bảo mật như xác thực, phát hiện tấn công phát lại và quay vòng khóa. Client thực hiện các thao tác gửi/nhận tin nhắn, hiển thị giao diện và truyền dữ liệu tới server theo thời gian thực.
+
+Luồng thực hiện dữ liệu bắt đầu từ bước đăng nhập, tiếp theo là thiết lập phiên làm việc và trao đổi khóa phiên giữa hai bên. Khi người dùng gửi tin nhắn, nội dung sẽ được mã hóa bằng AES-GCM trước khi truyền đi, đồng thời hệ thống tạo một chữ ký số bằng RSA-PSS để xác thực người gửi. Ở phía nhận, hệ thống kiểm tra chữ ký, kiểm tra thứ tự gói tin và phát hiện các trường hợp phát lại trước khi tiến hành giải mã. Cách tổ chức như vậy giúp hệ thống vừa bảo đảm khả năng giao tiếp thời gian thực vừa tăng cường độ tin cậy của dữ liệu.
 
 \section{Các công việc đã thực hiện}
 

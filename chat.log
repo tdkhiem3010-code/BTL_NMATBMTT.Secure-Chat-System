@@ -7002,3 +7002,1274 @@
 2026-07-05 16:27:42,980 - INFO - XN9Z1rLl4gYLzkDRAAAA: Received packet PONG data 
 2026-07-05 16:27:54,804 - INFO - uBQAzgb343TMXGurAAAC: Sending packet PING data None
 2026-07-05 16:27:54,805 - INFO - uBQAzgb343TMXGurAAAC: Received packet PONG data 
+2026-07-06 14:29:16,819 - INFO - Server initialized for threading.
+2026-07-06 14:29:17,774 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000
+2026-07-06 14:29:17,774 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-06 14:29:31,077 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:31] "GET / HTTP/1.1" 200 -
+2026-07-06 14:29:31,144 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:31] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2026-07-06 14:29:32,276 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-06 14:29:39,149 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:39] "GET / HTTP/1.1" 200 -
+2026-07-06 14:29:39,207 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:39] "GET /static/css/login.css HTTP/1.1" 200 -
+2026-07-06 14:29:46,750 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:46] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-07-06 14:29:46,797 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:46] "GET /chat HTTP/1.1" 200 -
+2026-07-06 14:29:46,818 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:46] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-07-06 14:29:46,841 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:46] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-07-06 14:29:46,895 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet OPEN data {'sid': 'PfFjDoqOn-2PyMx0AAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2026-07-06 14:29:46,896 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:46] "GET /socket.io/?EIO=4&transport=polling&t=PysLKcD HTTP/1.1" 200 -
+2026-07-06 14:29:46,901 - INFO - PfFjDoqOn-2PyMx0AAAA: Received packet MESSAGE data 0
+2026-07-06 14:29:46,902 - INFO - PfFjDoqOn-2PyMx0AAAA: Received request to upgrade to websocket
+2026-07-06 14:29:46,903 - INFO - emitting event "online_users" to all [/]
+2026-07-06 14:29:46,905 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:46] "GET /socket.io/?EIO=4&transport=polling&t=PysLKcJ&sid=PfFjDoqOn-2PyMx0AAAA HTTP/1.1" 200 -
+2026-07-06 14:29:46,904 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["online_users",["tdk"]]
+2026-07-06 14:29:46,905 - INFO - emitting event "attack_mode" to wReJHw2zyiQf2qWUAAAB [/]
+2026-07-06 14:29:46,906 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 14:29:46,906 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 0{"sid":"wReJHw2zyiQf2qWUAAAB"}
+2026-07-06 14:29:46,907 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:46] "POST /socket.io/?EIO=4&transport=polling&t=PysLKcI&sid=PfFjDoqOn-2PyMx0AAAA HTTP/1.1" 200 -
+2026-07-06 14:29:46,910 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:46] "GET /socket.io/?EIO=4&transport=polling&t=PysLKcR&sid=PfFjDoqOn-2PyMx0AAAA HTTP/1.1" 200 -
+2026-07-06 14:29:46,915 - INFO - PfFjDoqOn-2PyMx0AAAA: Upgrade to websocket successful
+2026-07-06 14:29:55,304 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:55] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-07-06 14:29:55,309 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:55] "GET /chat HTTP/1.1" 200 -
+2026-07-06 14:29:55,322 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:55] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-07-06 14:29:55,322 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:55] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-07-06 14:29:55,330 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet OPEN data {'sid': '4VOyqAfk0HdS4dGuAAAC', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2026-07-06 14:29:55,330 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:55] "GET /socket.io/?EIO=4&transport=polling&t=PysLMf_ HTTP/1.1" 200 -
+2026-07-06 14:29:55,386 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet MESSAGE data 0
+2026-07-06 14:29:55,388 - INFO - emitting event "online_users" to all [/]
+2026-07-06 14:29:55,388 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["online_users",["tdk","lvh"]]
+2026-07-06 14:29:55,389 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["online_users",["tdk","lvh"]]
+2026-07-06 14:29:55,390 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:55] "GET /socket.io/?EIO=4&transport=polling&t=PysLMgu&sid=4VOyqAfk0HdS4dGuAAAC HTTP/1.1" 200 -
+2026-07-06 14:29:55,389 - INFO - emitting event "attack_mode" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:29:55,390 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 14:29:55,391 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 0{"sid":"BSjLhJYXekvb3jk9AAAD"}
+2026-07-06 14:29:55,391 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:55] "POST /socket.io/?EIO=4&transport=polling&t=PysLMgs&sid=4VOyqAfk0HdS4dGuAAAC HTTP/1.1" 200 -
+2026-07-06 14:29:55,400 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:55] "GET /socket.io/?EIO=4&transport=polling&t=PysLMh1&sid=4VOyqAfk0HdS4dGuAAAC HTTP/1.1" 200 -
+2026-07-06 14:29:55,406 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received request to upgrade to websocket
+2026-07-06 14:29:55,414 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:55] "GET /socket.io/?EIO=4&transport=polling&t=PysLMhF&sid=4VOyqAfk0HdS4dGuAAAC HTTP/1.1" 200 -
+2026-07-06 14:29:55,430 - INFO - 4VOyqAfk0HdS4dGuAAAC: Upgrade to websocket successful
+2026-07-06 14:29:59,499 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:59] "GET / HTTP/1.1" 200 -
+2026-07-06 14:29:59,530 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:59] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2026-07-06 14:29:59,601 - INFO - 127.0.0.1 - - [06/Jul/2026 14:29:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-06 14:30:06,110 - INFO - 127.0.0.1 - - [06/Jul/2026 14:30:06] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-07-06 14:30:06,116 - INFO - 127.0.0.1 - - [06/Jul/2026 14:30:06] "GET /chat HTTP/1.1" 200 -
+2026-07-06 14:30:06,130 - INFO - 127.0.0.1 - - [06/Jul/2026 14:30:06] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-07-06 14:30:06,131 - INFO - 127.0.0.1 - - [06/Jul/2026 14:30:06] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-07-06 14:30:06,146 - INFO - AnWbq88YyiIh1gNKAAAE: Sending packet OPEN data {'sid': 'AnWbq88YyiIh1gNKAAAE', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2026-07-06 14:30:06,147 - INFO - 127.0.0.1 - - [06/Jul/2026 14:30:06] "GET /socket.io/?EIO=4&transport=polling&t=PysLPIz HTTP/1.1" 200 -
+2026-07-06 14:30:06,192 - INFO - AnWbq88YyiIh1gNKAAAE: Received packet MESSAGE data 0
+2026-07-06 14:30:06,195 - INFO - emitting event "online_users" to all [/]
+2026-07-06 14:30:06,197 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["online_users",["tdk","lvh","lny"]]
+2026-07-06 14:30:06,199 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["online_users",["tdk","lvh","lny"]]
+2026-07-06 14:30:06,200 - INFO - 127.0.0.1 - - [06/Jul/2026 14:30:06] "GET /socket.io/?EIO=4&transport=polling&t=PysLPJj&sid=AnWbq88YyiIh1gNKAAAE HTTP/1.1" 200 -
+2026-07-06 14:30:06,199 - INFO - AnWbq88YyiIh1gNKAAAE: Sending packet MESSAGE data 2["online_users",["tdk","lvh","lny"]]
+2026-07-06 14:30:06,200 - INFO - emitting event "attack_mode" to vh7GJdvNDK1asaZzAAAF [/]
+2026-07-06 14:30:06,201 - INFO - AnWbq88YyiIh1gNKAAAE: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 14:30:06,202 - INFO - AnWbq88YyiIh1gNKAAAE: Sending packet MESSAGE data 0{"sid":"vh7GJdvNDK1asaZzAAAF"}
+2026-07-06 14:30:06,202 - INFO - 127.0.0.1 - - [06/Jul/2026 14:30:06] "POST /socket.io/?EIO=4&transport=polling&t=PysLPJf&sid=AnWbq88YyiIh1gNKAAAE HTTP/1.1" 200 -
+2026-07-06 14:30:06,214 - INFO - 127.0.0.1 - - [06/Jul/2026 14:30:06] "GET /socket.io/?EIO=4&transport=polling&t=PysLPJy&sid=AnWbq88YyiIh1gNKAAAE HTTP/1.1" 200 -
+2026-07-06 14:30:06,215 - INFO - AnWbq88YyiIh1gNKAAAE: Received request to upgrade to websocket
+2026-07-06 14:30:06,229 - INFO - 127.0.0.1 - - [06/Jul/2026 14:30:06] "GET /socket.io/?EIO=4&transport=polling&t=PysLPK9&sid=AnWbq88YyiIh1gNKAAAE HTTP/1.1" 200 -
+2026-07-06 14:30:06,245 - INFO - AnWbq88YyiIh1gNKAAAE: Upgrade to websocket successful
+2026-07-06 14:30:11,896 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet PING data None
+2026-07-06 14:30:11,899 - INFO - PfFjDoqOn-2PyMx0AAAA: Received packet PONG data 
+2026-07-06 14:30:20,190 - INFO - PfFjDoqOn-2PyMx0AAAA: Received packet MESSAGE data 2["send_message",{"receiver":"lvh","message":"alooo"}]
+2026-07-06 14:30:20,191 - INFO - received event "send_message" from wReJHw2zyiQf2qWUAAAB [/]
+2026-07-06 14:30:20,331 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet PING data None
+2026-07-06 14:30:20,333 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet PONG data 
+2026-07-06 14:30:20,376 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-06 14:30:20,379 - INFO - tdk ENCRYPTION seq=1
+2026-07-06 14:30:20,381 - INFO - tdk DECRYPTION seq=1
+2026-07-06 14:30:20,381 - INFO - Digital Signature: VERIFIED
+2026-07-06 14:30:20,381 - INFO - emitting event "receive_message" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:30:20,381 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"DKKFz3DCNP+ww/w4d4A1R9nCv1m99gCJjAr9IwiZZbTqoElUhyh2sPYTQQmCxXQEeAFA5fqlFSXLEP9O+O6Z7i8sSW1ScZyeP/anvJpsgaGDEsoNRH6Hl+teFQQX6xAz1LeIUkgHVg6K7PB2tMEU50WwsKvWmRy5Ddn+Vt9jYBbg1VWaqQhHHEtMr6VE0jnOPggtvOzfpyGjF7hlrN1sCuPvZ5vYumJjnO9U+MQDcz9OfJEk2ixAbw6LB2H62LqzSY1V8+3YBteV+Ig5p2XGAGlmCOeVDvsPHy71ev50MaGbNlHE2EYhQgaf1YSjJ7wZjyHpNJHz9SWCuFiRC0uvVQ==","plaintext":"alooo","ciphertext":"kEn0LvdELyHXTzfX00aIoGtHDV8A","nonce":"jIe3ZTWhYmEnEoAB","signature":"Lny8TyCTCOZ5kvOierPT1ACFnLpji1g3zxpPQsEGIbR5jC2cZ2VMp8EE700tAJYCZHH5MXVo4X4OhWQRdGcRD9/HTefoQ/WQkQbiLX7fwH8qYGgw219KZbKjVjALrtUaSuRh8QY75S+DlcDIVdGbeq0XY9+o1pI+hC0SA8awn/f1aih4lo700iumJsl1sMFKjDf810lek/nhTrgCj6+N0nyrqI3mTL6nYAxx+afjJmUmPzAM9ByqgdzN9l3Uf/7tMSdxJxU9fY0nfhYmX13JOulJ7FJreGfcXjU/LZMgy1bMhq4wAnRElpKaS/VEKWQf2/QTyR41jTHzOM/bgFUYvw==","session_id":"d0c0f77f-d31f-40c0-b019-2b7ab5b3d0ac","sequence_number":1,"message_id":"e18fa829-242b-4594-92ae-235522fe9de6","timestamp":"2026-07-06T14:30:20.377025","security_status":"VALID"}]
+2026-07-06 14:30:20,381 - INFO - emitting event "receive_message" to wReJHw2zyiQf2qWUAAAB [/]
+2026-07-06 14:30:20,382 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"DKKFz3DCNP+ww/w4d4A1R9nCv1m99gCJjAr9IwiZZbTqoElUhyh2sPYTQQmCxXQEeAFA5fqlFSXLEP9O+O6Z7i8sSW1ScZyeP/anvJpsgaGDEsoNRH6Hl+teFQQX6xAz1LeIUkgHVg6K7PB2tMEU50WwsKvWmRy5Ddn+Vt9jYBbg1VWaqQhHHEtMr6VE0jnOPggtvOzfpyGjF7hlrN1sCuPvZ5vYumJjnO9U+MQDcz9OfJEk2ixAbw6LB2H62LqzSY1V8+3YBteV+Ig5p2XGAGlmCOeVDvsPHy71ev50MaGbNlHE2EYhQgaf1YSjJ7wZjyHpNJHz9SWCuFiRC0uvVQ==","plaintext":"alooo","ciphertext":"kEn0LvdELyHXTzfX00aIoGtHDV8A","nonce":"jIe3ZTWhYmEnEoAB","signature":"Lny8TyCTCOZ5kvOierPT1ACFnLpji1g3zxpPQsEGIbR5jC2cZ2VMp8EE700tAJYCZHH5MXVo4X4OhWQRdGcRD9/HTefoQ/WQkQbiLX7fwH8qYGgw219KZbKjVjALrtUaSuRh8QY75S+DlcDIVdGbeq0XY9+o1pI+hC0SA8awn/f1aih4lo700iumJsl1sMFKjDf810lek/nhTrgCj6+N0nyrqI3mTL6nYAxx+afjJmUmPzAM9ByqgdzN9l3Uf/7tMSdxJxU9fY0nfhYmX13JOulJ7FJreGfcXjU/LZMgy1bMhq4wAnRElpKaS/VEKWQf2/QTyR41jTHzOM/bgFUYvw==","session_id":"d0c0f77f-d31f-40c0-b019-2b7ab5b3d0ac","sequence_number":1,"message_id":"e18fa829-242b-4594-92ae-235522fe9de6","timestamp":"2026-07-06T14:30:20.377025","security_status":"VALID"}]
+2026-07-06 14:30:31,148 - INFO - AnWbq88YyiIh1gNKAAAE: Sending packet PING data None
+2026-07-06 14:30:31,149 - INFO - AnWbq88YyiIh1gNKAAAE: Received packet PONG data 
+2026-07-06 14:30:36,901 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet PING data None
+2026-07-06 14:30:36,902 - INFO - PfFjDoqOn-2PyMx0AAAA: Received packet PONG data 
+2026-07-06 14:30:45,334 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet PING data None
+2026-07-06 14:30:45,335 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet PONG data 
+2026-07-06 14:30:53,181 - INFO - PfFjDoqOn-2PyMx0AAAA: Received packet MESSAGE data 2["toggle_ciphertext_attack"]
+2026-07-06 14:30:53,181 - INFO - received event "toggle_ciphertext_attack" from wReJHw2zyiQf2qWUAAAB [/]
+2026-07-06 14:30:53,182 - INFO - emitting event "attack_mode" to wReJHw2zyiQf2qWUAAAB [/]
+2026-07-06 14:30:53,182 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":true,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 14:30:56,150 - INFO - AnWbq88YyiIh1gNKAAAE: Sending packet PING data None
+2026-07-06 14:30:56,151 - INFO - AnWbq88YyiIh1gNKAAAE: Received packet PONG data 
+2026-07-06 14:30:57,095 - INFO - PfFjDoqOn-2PyMx0AAAA: Received packet MESSAGE data 2["send_message",{"receiver":"lvh","message":"hi"}]
+2026-07-06 14:30:57,095 - INFO - received event "send_message" from wReJHw2zyiQf2qWUAAAB [/]
+2026-07-06 14:30:57,169 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-06 14:30:57,170 - INFO - tdk ENCRYPTION seq=2
+2026-07-06 14:30:57,171 - INFO - ATTACK: MODIFY CIPHERTEXT
+2026-07-06 14:30:57,171 - INFO - DECRYPT FAILED
+2026-07-06 14:30:57,171 - INFO - INVALID SIGNATURE
+2026-07-06 14:30:57,171 - INFO - emitting event "receive_message" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:30:57,171 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"OsNZwlgYkasDQxwu9sQVKm9vPr82vkbkH89V63uIFUOkU7OZ1SZYYl9msrJKhatIgFVxlMzMTuXFvmAdD1B7xZNthb9jggfCkCb4NGL0rJbT3H0YNcH7n846u4nA+IKFm3JEjMxkNTF4wOR2nQD795DJve9KappgU1nzMVRXzlAyj/8gvJCdkSx/jQtGbfjFRI4PtW91TySbjMoriMkOdl51bOPHftfuVp+hXhXNPQUUYrkG/KBRJFRMu+RJ3CtDf3GZdUC1umqSOE5OxHRUAZLDrH62l2CG7cMlZPNRJCF361xx4QusQu1Q8uNTAc0vAKCNO8xhJw3mRXS201vUFA==","plaintext":"[CIPHERTEXT MODIFIED]","ciphertext":"69mTainxOblmI7EjmduvJR8o","nonce":"YFOTKX6kIueFAhIH","signature":"dawvomFaCkKLdgTI87wwxdVJFBA6af48vT8gij5Ry0eaj+JL9YIJ7ltJldhqprlnMofvdvM7a8J8vU3H7zR+u0Ieo2cfGIXYAocMag54PJlj3dID+HzcZ70hInfroMLkZh2NJ3H/SQUBJ/eiXXBEs7IVYPkFZj4SVJygml5rSroS3XcpvoAN6SswhrGECTFqmaQOEe20iaPhFpxQRYA3HOLclJ/eRggC6R8hJqblrM706QU8yhNiGWRaEl/4Ts2wl4+g+gZM5lqTaMhdOR8ZpJhhTMeobQGh6bunynpbmAaHcIwsoVyc75EKxDLym3yu4AfznrBzLt0PpZbIF9M7UQ==","session_id":"d0c0f77f-d31f-40c0-b019-2b7ab5b3d0ac","sequence_number":2,"message_id":"93540437-1f28-485d-aa9b-d9729ce84abb","timestamp":"2026-07-06T14:30:57.169720","security_status":"CIPHERTEXT MODIFIED"}]
+2026-07-06 14:30:57,172 - INFO - emitting event "receive_message" to wReJHw2zyiQf2qWUAAAB [/]
+2026-07-06 14:30:57,172 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"OsNZwlgYkasDQxwu9sQVKm9vPr82vkbkH89V63uIFUOkU7OZ1SZYYl9msrJKhatIgFVxlMzMTuXFvmAdD1B7xZNthb9jggfCkCb4NGL0rJbT3H0YNcH7n846u4nA+IKFm3JEjMxkNTF4wOR2nQD795DJve9KappgU1nzMVRXzlAyj/8gvJCdkSx/jQtGbfjFRI4PtW91TySbjMoriMkOdl51bOPHftfuVp+hXhXNPQUUYrkG/KBRJFRMu+RJ3CtDf3GZdUC1umqSOE5OxHRUAZLDrH62l2CG7cMlZPNRJCF361xx4QusQu1Q8uNTAc0vAKCNO8xhJw3mRXS201vUFA==","plaintext":"[CIPHERTEXT MODIFIED]","ciphertext":"69mTainxOblmI7EjmduvJR8o","nonce":"YFOTKX6kIueFAhIH","signature":"dawvomFaCkKLdgTI87wwxdVJFBA6af48vT8gij5Ry0eaj+JL9YIJ7ltJldhqprlnMofvdvM7a8J8vU3H7zR+u0Ieo2cfGIXYAocMag54PJlj3dID+HzcZ70hInfroMLkZh2NJ3H/SQUBJ/eiXXBEs7IVYPkFZj4SVJygml5rSroS3XcpvoAN6SswhrGECTFqmaQOEe20iaPhFpxQRYA3HOLclJ/eRggC6R8hJqblrM706QU8yhNiGWRaEl/4Ts2wl4+g+gZM5lqTaMhdOR8ZpJhhTMeobQGh6bunynpbmAaHcIwsoVyc75EKxDLym3yu4AfznrBzLt0PpZbIF9M7UQ==","session_id":"d0c0f77f-d31f-40c0-b019-2b7ab5b3d0ac","sequence_number":2,"message_id":"93540437-1f28-485d-aa9b-d9729ce84abb","timestamp":"2026-07-06T14:30:57.169720","security_status":"CIPHERTEXT MODIFIED"}]
+2026-07-06 14:31:01,903 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet PING data None
+2026-07-06 14:31:01,904 - INFO - PfFjDoqOn-2PyMx0AAAA: Received packet PONG data 
+2026-07-06 14:31:03,172 - INFO - PfFjDoqOn-2PyMx0AAAA: Received packet MESSAGE data 2["replay_attack"]
+2026-07-06 14:31:03,173 - INFO - received event "replay_attack" from wReJHw2zyiQf2qWUAAAB [/]
+2026-07-06 14:31:03,175 - INFO - REPLAY ATTACK DETECTED
+2026-07-06 14:31:03,175 - INFO - emitting event "receive_message" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:03,176 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"DKKFz3DCNP+ww/w4d4A1R9nCv1m99gCJjAr9IwiZZbTqoElUhyh2sPYTQQmCxXQEeAFA5fqlFSXLEP9O+O6Z7i8sSW1ScZyeP/anvJpsgaGDEsoNRH6Hl+teFQQX6xAz1LeIUkgHVg6K7PB2tMEU50WwsKvWmRy5Ddn+Vt9jYBbg1VWaqQhHHEtMr6VE0jnOPggtvOzfpyGjF7hlrN1sCuPvZ5vYumJjnO9U+MQDcz9OfJEk2ixAbw6LB2H62LqzSY1V8+3YBteV+Ig5p2XGAGlmCOeVDvsPHy71ev50MaGbNlHE2EYhQgaf1YSjJ7wZjyHpNJHz9SWCuFiRC0uvVQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"kEn0LvdELyHXTzfX00aIoGtHDV8A","nonce":"jIe3ZTWhYmEnEoAB","signature":"Lny8TyCTCOZ5kvOierPT1ACFnLpji1g3zxpPQsEGIbR5jC2cZ2VMp8EE700tAJYCZHH5MXVo4X4OhWQRdGcRD9/HTefoQ/WQkQbiLX7fwH8qYGgw219KZbKjVjALrtUaSuRh8QY75S+DlcDIVdGbeq0XY9+o1pI+hC0SA8awn/f1aih4lo700iumJsl1sMFKjDf810lek/nhTrgCj6+N0nyrqI3mTL6nYAxx+afjJmUmPzAM9ByqgdzN9l3Uf/7tMSdxJxU9fY0nfhYmX13JOulJ7FJreGfcXjU/LZMgy1bMhq4wAnRElpKaS/VEKWQf2/QTyR41jTHzOM/bgFUYvw==","session_id":"d0c0f77f-d31f-40c0-b019-2b7ab5b3d0ac","sequence_number":1,"message_id":"e18fa829-242b-4594-92ae-235522fe9de6","timestamp":"2026-07-06T14:30:20.377025","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-06 14:31:03,176 - INFO - emitting event "receive_message" to wReJHw2zyiQf2qWUAAAB [/]
+2026-07-06 14:31:03,176 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"DKKFz3DCNP+ww/w4d4A1R9nCv1m99gCJjAr9IwiZZbTqoElUhyh2sPYTQQmCxXQEeAFA5fqlFSXLEP9O+O6Z7i8sSW1ScZyeP/anvJpsgaGDEsoNRH6Hl+teFQQX6xAz1LeIUkgHVg6K7PB2tMEU50WwsKvWmRy5Ddn+Vt9jYBbg1VWaqQhHHEtMr6VE0jnOPggtvOzfpyGjF7hlrN1sCuPvZ5vYumJjnO9U+MQDcz9OfJEk2ixAbw6LB2H62LqzSY1V8+3YBteV+Ig5p2XGAGlmCOeVDvsPHy71ev50MaGbNlHE2EYhQgaf1YSjJ7wZjyHpNJHz9SWCuFiRC0uvVQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"kEn0LvdELyHXTzfX00aIoGtHDV8A","nonce":"jIe3ZTWhYmEnEoAB","signature":"Lny8TyCTCOZ5kvOierPT1ACFnLpji1g3zxpPQsEGIbR5jC2cZ2VMp8EE700tAJYCZHH5MXVo4X4OhWQRdGcRD9/HTefoQ/WQkQbiLX7fwH8qYGgw219KZbKjVjALrtUaSuRh8QY75S+DlcDIVdGbeq0XY9+o1pI+hC0SA8awn/f1aih4lo700iumJsl1sMFKjDf810lek/nhTrgCj6+N0nyrqI3mTL6nYAxx+afjJmUmPzAM9ByqgdzN9l3Uf/7tMSdxJxU9fY0nfhYmX13JOulJ7FJreGfcXjU/LZMgy1bMhq4wAnRElpKaS/VEKWQf2/QTyR41jTHzOM/bgFUYvw==","session_id":"d0c0f77f-d31f-40c0-b019-2b7ab5b3d0ac","sequence_number":1,"message_id":"e18fa829-242b-4594-92ae-235522fe9de6","timestamp":"2026-07-06T14:30:20.377025","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-06 14:31:09,081 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet MESSAGE data 2["replay_attack"]
+2026-07-06 14:31:09,081 - INFO - received event "replay_attack" from BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:09,083 - INFO - REPLAY ATTACK DETECTED
+2026-07-06 14:31:09,083 - INFO - emitting event "receive_message" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:09,083 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"DKKFz3DCNP+ww/w4d4A1R9nCv1m99gCJjAr9IwiZZbTqoElUhyh2sPYTQQmCxXQEeAFA5fqlFSXLEP9O+O6Z7i8sSW1ScZyeP/anvJpsgaGDEsoNRH6Hl+teFQQX6xAz1LeIUkgHVg6K7PB2tMEU50WwsKvWmRy5Ddn+Vt9jYBbg1VWaqQhHHEtMr6VE0jnOPggtvOzfpyGjF7hlrN1sCuPvZ5vYumJjnO9U+MQDcz9OfJEk2ixAbw6LB2H62LqzSY1V8+3YBteV+Ig5p2XGAGlmCOeVDvsPHy71ev50MaGbNlHE2EYhQgaf1YSjJ7wZjyHpNJHz9SWCuFiRC0uvVQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"kEn0LvdELyHXTzfX00aIoGtHDV8A","nonce":"jIe3ZTWhYmEnEoAB","signature":"Lny8TyCTCOZ5kvOierPT1ACFnLpji1g3zxpPQsEGIbR5jC2cZ2VMp8EE700tAJYCZHH5MXVo4X4OhWQRdGcRD9/HTefoQ/WQkQbiLX7fwH8qYGgw219KZbKjVjALrtUaSuRh8QY75S+DlcDIVdGbeq0XY9+o1pI+hC0SA8awn/f1aih4lo700iumJsl1sMFKjDf810lek/nhTrgCj6+N0nyrqI3mTL6nYAxx+afjJmUmPzAM9ByqgdzN9l3Uf/7tMSdxJxU9fY0nfhYmX13JOulJ7FJreGfcXjU/LZMgy1bMhq4wAnRElpKaS/VEKWQf2/QTyR41jTHzOM/bgFUYvw==","session_id":"d0c0f77f-d31f-40c0-b019-2b7ab5b3d0ac","sequence_number":1,"message_id":"e18fa829-242b-4594-92ae-235522fe9de6","timestamp":"2026-07-06T14:30:20.377025","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-06 14:31:09,083 - INFO - emitting event "receive_message" to wReJHw2zyiQf2qWUAAAB [/]
+2026-07-06 14:31:09,084 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"DKKFz3DCNP+ww/w4d4A1R9nCv1m99gCJjAr9IwiZZbTqoElUhyh2sPYTQQmCxXQEeAFA5fqlFSXLEP9O+O6Z7i8sSW1ScZyeP/anvJpsgaGDEsoNRH6Hl+teFQQX6xAz1LeIUkgHVg6K7PB2tMEU50WwsKvWmRy5Ddn+Vt9jYBbg1VWaqQhHHEtMr6VE0jnOPggtvOzfpyGjF7hlrN1sCuPvZ5vYumJjnO9U+MQDcz9OfJEk2ixAbw6LB2H62LqzSY1V8+3YBteV+Ig5p2XGAGlmCOeVDvsPHy71ev50MaGbNlHE2EYhQgaf1YSjJ7wZjyHpNJHz9SWCuFiRC0uvVQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"kEn0LvdELyHXTzfX00aIoGtHDV8A","nonce":"jIe3ZTWhYmEnEoAB","signature":"Lny8TyCTCOZ5kvOierPT1ACFnLpji1g3zxpPQsEGIbR5jC2cZ2VMp8EE700tAJYCZHH5MXVo4X4OhWQRdGcRD9/HTefoQ/WQkQbiLX7fwH8qYGgw219KZbKjVjALrtUaSuRh8QY75S+DlcDIVdGbeq0XY9+o1pI+hC0SA8awn/f1aih4lo700iumJsl1sMFKjDf810lek/nhTrgCj6+N0nyrqI3mTL6nYAxx+afjJmUmPzAM9ByqgdzN9l3Uf/7tMSdxJxU9fY0nfhYmX13JOulJ7FJreGfcXjU/LZMgy1bMhq4wAnRElpKaS/VEKWQf2/QTyR41jTHzOM/bgFUYvw==","session_id":"d0c0f77f-d31f-40c0-b019-2b7ab5b3d0ac","sequence_number":1,"message_id":"e18fa829-242b-4594-92ae-235522fe9de6","timestamp":"2026-07-06T14:30:20.377025","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-06 14:31:10,336 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet PING data None
+2026-07-06 14:31:10,337 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet PONG data 
+2026-07-06 14:31:16,741 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet MESSAGE data 2["toggle_ciphertext_attack"]
+2026-07-06 14:31:16,741 - INFO - received event "toggle_ciphertext_attack" from BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:16,745 - INFO - emitting event "attack_mode" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:16,746 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 14:31:18,844 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet MESSAGE data 2["toggle_ciphertext_attack"]
+2026-07-06 14:31:18,846 - INFO - received event "toggle_ciphertext_attack" from BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:18,846 - INFO - emitting event "attack_mode" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:18,847 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":true,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 14:31:20,332 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet MESSAGE data 2["toggle_sequence_attack"]
+2026-07-06 14:31:20,333 - INFO - received event "toggle_sequence_attack" from BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:20,336 - INFO - emitting event "attack_mode" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:20,336 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":true,"sequence":true,"wrong_key":false,"fake_sender":false}]
+2026-07-06 14:31:20,875 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet MESSAGE data 2["toggle_ciphertext_attack"]
+2026-07-06 14:31:20,876 - INFO - received event "toggle_ciphertext_attack" from BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:20,878 - INFO - emitting event "attack_mode" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:20,879 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":true,"wrong_key":false,"fake_sender":false}]
+2026-07-06 14:31:21,152 - INFO - AnWbq88YyiIh1gNKAAAE: Sending packet PING data None
+2026-07-06 14:31:21,155 - INFO - AnWbq88YyiIh1gNKAAAE: Received packet PONG data 
+2026-07-06 14:31:22,230 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet MESSAGE data 2["toggle_ciphertext_attack"]
+2026-07-06 14:31:22,231 - INFO - received event "toggle_ciphertext_attack" from BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:22,234 - INFO - emitting event "attack_mode" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:22,234 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":true,"sequence":true,"wrong_key":false,"fake_sender":false}]
+2026-07-06 14:31:24,167 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet MESSAGE data 2["send_message",{"receiver":"tdk","message":"alo"}]
+2026-07-06 14:31:24,168 - INFO - received event "send_message" from BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:24,237 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-06 14:31:24,237 - INFO - ATTACK: MODIFY SEQUENCE
+2026-07-06 14:31:24,237 - INFO - INVALID SEQUENCE NUMBER
+2026-07-06 14:31:24,237 - INFO - emitting event "receive_message" to wReJHw2zyiQf2qWUAAAB [/]
+2026-07-06 14:31:24,238 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"lvh","receiver":"tdk","encrypted_session_key":"UMNqRYHsrqxD0xUEn6Xesigq3ZecKkdy9WrxWv511fuCHT14kNIFRUygkQqa8FysJLx8iGjjeIxWOmwp9lZ3xIJEJ639bINsZggsVChuZ7rVvupoe3dVDE5K8ux2jspEZ0YiURHogPQarEQH16XhhpJKDml1O6GsAVNrE/xYnanRpr7NHIy6lNuSYnKgKrLxV4UAjBz/XbmiAabF3iLzH4/YjXJorcaV075r9OUnsQGBeQ7K5jYo5LnT/TGGisXq6R/zetgKBYW3plpEhtxj/VcW+JiuERfPeIEkLJ00ulNQ5rDPyabhpnGzn4dEaIbRwnH6UbuQuBoh0eH97TUOQw==","plaintext":"[INVALID SEQUENCE]","ciphertext":"","nonce":"fabe73d5-b556-429d-919a-fd7b1810b467","signature":"","session_id":"d0c0f77f-d31f-40c0-b019-2b7ab5b3d0ac","sequence_number":6,"message_id":"5ccbd9e6-e7de-4be7-9dd6-aee6ae13d621","timestamp":"2026-07-06T14:31:24.237634","security_status":"INVALID SEQUENCE"}]
+2026-07-06 14:31:24,238 - INFO - emitting event "receive_message" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:24,238 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"lvh","receiver":"tdk","encrypted_session_key":"UMNqRYHsrqxD0xUEn6Xesigq3ZecKkdy9WrxWv511fuCHT14kNIFRUygkQqa8FysJLx8iGjjeIxWOmwp9lZ3xIJEJ639bINsZggsVChuZ7rVvupoe3dVDE5K8ux2jspEZ0YiURHogPQarEQH16XhhpJKDml1O6GsAVNrE/xYnanRpr7NHIy6lNuSYnKgKrLxV4UAjBz/XbmiAabF3iLzH4/YjXJorcaV075r9OUnsQGBeQ7K5jYo5LnT/TGGisXq6R/zetgKBYW3plpEhtxj/VcW+JiuERfPeIEkLJ00ulNQ5rDPyabhpnGzn4dEaIbRwnH6UbuQuBoh0eH97TUOQw==","plaintext":"[INVALID SEQUENCE]","ciphertext":"","nonce":"fabe73d5-b556-429d-919a-fd7b1810b467","signature":"","session_id":"d0c0f77f-d31f-40c0-b019-2b7ab5b3d0ac","sequence_number":6,"message_id":"5ccbd9e6-e7de-4be7-9dd6-aee6ae13d621","timestamp":"2026-07-06T14:31:24.237634","security_status":"INVALID SEQUENCE"}]
+2026-07-06 14:31:26,062 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet MESSAGE data 2["toggle_ciphertext_attack"]
+2026-07-06 14:31:26,063 - INFO - received event "toggle_ciphertext_attack" from BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:26,067 - INFO - emitting event "attack_mode" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:26,067 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":true,"wrong_key":false,"fake_sender":false}]
+2026-07-06 14:31:26,631 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet MESSAGE data 2["toggle_sequence_attack"]
+2026-07-06 14:31:26,632 - INFO - received event "toggle_sequence_attack" from BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:26,633 - INFO - emitting event "attack_mode" to BSjLhJYXekvb3jk9AAAD [/]
+2026-07-06 14:31:26,633 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 14:31:26,906 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet PING data None
+2026-07-06 14:31:26,909 - INFO - PfFjDoqOn-2PyMx0AAAA: Received packet PONG data 
+2026-07-06 14:31:35,339 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet PING data None
+2026-07-06 14:31:35,339 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet PONG data 
+2026-07-06 14:31:41,053 - INFO - emitting event "online_users" to all [/]
+2026-07-06 14:31:41,053 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["online_users",["tdk","lvh"]]
+2026-07-06 14:31:41,054 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["online_users",["tdk","lvh"]]
+2026-07-06 14:31:41,054 - INFO - AnWbq88YyiIh1gNKAAAE: Sending packet MESSAGE data 2["online_users",["tdk","lvh"]]
+2026-07-06 14:31:41,054 - INFO - 127.0.0.1 - - [06/Jul/2026 14:31:41] "GET /socket.io/?EIO=4&transport=websocket&sid=AnWbq88YyiIh1gNKAAAE HTTP/1.1" 200 -
+2026-07-06 14:31:51,912 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet PING data None
+2026-07-06 14:31:51,913 - INFO - PfFjDoqOn-2PyMx0AAAA: Received packet PONG data 
+2026-07-06 14:32:00,341 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet PING data None
+2026-07-06 14:32:00,342 - INFO - 4VOyqAfk0HdS4dGuAAAC: Received packet PONG data 
+2026-07-06 14:32:16,914 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet PING data None
+2026-07-06 14:32:16,915 - INFO - PfFjDoqOn-2PyMx0AAAA: Received packet PONG data 
+2026-07-06 14:32:23,985 - INFO - emitting event "online_users" to all [/]
+2026-07-06 14:32:23,986 - INFO - PfFjDoqOn-2PyMx0AAAA: Sending packet MESSAGE data 2["online_users",["tdk"]]
+2026-07-06 14:32:23,986 - INFO - 4VOyqAfk0HdS4dGuAAAC: Sending packet MESSAGE data 2["online_users",["tdk"]]
+2026-07-06 14:32:23,986 - INFO - 127.0.0.1 - - [06/Jul/2026 14:32:23] "GET /socket.io/?EIO=4&transport=websocket&sid=4VOyqAfk0HdS4dGuAAAC HTTP/1.1" 200 -
+2026-07-06 23:50:49,211 - INFO - Server initialized for threading.
+2026-07-06 23:50:50,192 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.184:5000
+2026-07-06 23:50:50,192 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-06 23:51:15,448 - INFO - 127.0.0.1 - - [06/Jul/2026 23:51:15] "GET / HTTP/1.1" 200 -
+2026-07-06 23:51:15,550 - INFO - 127.0.0.1 - - [06/Jul/2026 23:51:15] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2026-07-06 23:51:16,394 - INFO - 127.0.0.1 - - [06/Jul/2026 23:51:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-06 23:51:24,237 - INFO - 127.0.0.1 - - [06/Jul/2026 23:51:24] "GET / HTTP/1.1" 200 -
+2026-07-06 23:51:24,329 - INFO - 127.0.0.1 - - [06/Jul/2026 23:51:24] "GET /static/css/login.css HTTP/1.1" 200 -
+2026-07-06 23:53:09,627 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:09] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-07-06 23:53:09,687 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:09] "GET /chat HTTP/1.1" 200 -
+2026-07-06 23:53:09,715 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:09] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-07-06 23:53:09,750 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:09] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-07-06 23:53:09,790 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet OPEN data {'sid': 'sX6eA5-RKpZcZrVRAAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2026-07-06 23:53:09,791 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:09] "GET /socket.io/?EIO=4&transport=polling&t=PyuMHGR HTTP/1.1" 200 -
+2026-07-06 23:53:09,806 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 0
+2026-07-06 23:53:09,809 - INFO - emitting event "online_users" to all [/]
+2026-07-06 23:53:09,811 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["online_users",["tdk"]]
+2026-07-06 23:53:09,812 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:09] "GET /socket.io/?EIO=4&transport=polling&t=PyuMHGe&sid=sX6eA5-RKpZcZrVRAAAA HTTP/1.1" 200 -
+2026-07-06 23:53:09,811 - INFO - emitting event "attack_mode" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:53:09,813 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 23:53:09,817 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 0{"sid":"JFSPGq8K_r5bTADWAAAB"}
+2026-07-06 23:53:09,818 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:09] "POST /socket.io/?EIO=4&transport=polling&t=PyuMHGY&sid=sX6eA5-RKpZcZrVRAAAA HTTP/1.1" 200 -
+2026-07-06 23:53:09,825 - INFO - sX6eA5-RKpZcZrVRAAAA: Received request to upgrade to websocket
+2026-07-06 23:53:09,833 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:09] "GET /socket.io/?EIO=4&transport=polling&t=PyuMHH3&sid=sX6eA5-RKpZcZrVRAAAA HTTP/1.1" 200 -
+2026-07-06 23:53:09,840 - INFO - sX6eA5-RKpZcZrVRAAAA: Upgrade to websocket successful
+2026-07-06 23:53:26,663 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:26] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-07-06 23:53:26,673 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:26] "GET /chat HTTP/1.1" 200 -
+2026-07-06 23:53:26,697 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:26] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-07-06 23:53:26,698 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:26] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-07-06 23:53:26,938 - INFO - t4i2mIufad03_STVAAAC: Sending packet OPEN data {'sid': 't4i2mIufad03_STVAAAC', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2026-07-06 23:53:26,938 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:26] "GET /socket.io/?EIO=4&transport=polling&t=PyuMLSO HTTP/1.1" 200 -
+2026-07-06 23:53:26,950 - INFO - t4i2mIufad03_STVAAAC: Received packet MESSAGE data 0
+2026-07-06 23:53:26,954 - INFO - emitting event "online_users" to all [/]
+2026-07-06 23:53:26,956 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["online_users",["tdk","lvh"]]
+2026-07-06 23:53:26,957 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:26] "GET /socket.io/?EIO=4&transport=polling&t=PyuMLSZ&sid=t4i2mIufad03_STVAAAC HTTP/1.1" 200 -
+2026-07-06 23:53:26,956 - INFO - t4i2mIufad03_STVAAAC: Received request to upgrade to websocket
+2026-07-06 23:53:26,957 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["online_users",["tdk","lvh"]]
+2026-07-06 23:53:26,963 - INFO - emitting event "attack_mode" to aC3duc0k3ufDNzLYAAAD [/]
+2026-07-06 23:53:26,963 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 23:53:26,964 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 0{"sid":"aC3duc0k3ufDNzLYAAAD"}
+2026-07-06 23:53:26,965 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:26] "POST /socket.io/?EIO=4&transport=polling&t=PyuMLSX&sid=t4i2mIufad03_STVAAAC HTTP/1.1" 200 -
+2026-07-06 23:53:26,986 - INFO - 127.0.0.1 - - [06/Jul/2026 23:53:26] "GET /socket.io/?EIO=4&transport=polling&t=PyuMLSv&sid=t4i2mIufad03_STVAAAC HTTP/1.1" 200 -
+2026-07-06 23:53:26,994 - INFO - t4i2mIufad03_STVAAAC: Upgrade to websocket successful
+2026-07-06 23:53:34,792 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:53:34,794 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:53:51,939 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:53:51,941 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:53:59,795 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:53:59,796 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:54:16,942 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:54:16,943 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:54:24,797 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:54:24,797 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:54:41,944 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:54:41,946 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:54:43,094 - INFO - 127.0.0.1 - - [06/Jul/2026 23:54:43] "GET / HTTP/1.1" 200 -
+2026-07-06 23:54:43,272 - INFO - 127.0.0.1 - - [06/Jul/2026 23:54:43] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2026-07-06 23:54:43,396 - INFO - 127.0.0.1 - - [06/Jul/2026 23:54:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-06 23:54:49,798 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:54:49,799 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:54:51,753 - INFO - 127.0.0.1 - - [06/Jul/2026 23:54:51] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-07-06 23:54:51,760 - INFO - 127.0.0.1 - - [06/Jul/2026 23:54:51] "GET /chat HTTP/1.1" 200 -
+2026-07-06 23:54:51,788 - INFO - 127.0.0.1 - - [06/Jul/2026 23:54:51] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-07-06 23:54:51,788 - INFO - 127.0.0.1 - - [06/Jul/2026 23:54:51] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-07-06 23:54:51,803 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet OPEN data {'sid': '21piIS3HLMsvggC9AAAE', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2026-07-06 23:54:51,805 - INFO - 127.0.0.1 - - [06/Jul/2026 23:54:51] "GET /socket.io/?EIO=4&transport=polling&t=PyuMgAM HTTP/1.1" 200 -
+2026-07-06 23:54:51,852 - INFO - 21piIS3HLMsvggC9AAAE: Received packet MESSAGE data 0
+2026-07-06 23:54:51,855 - INFO - emitting event "online_users" to all [/]
+2026-07-06 23:54:51,855 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["online_users",["tdk","lvh","lny"]]
+2026-07-06 23:54:51,856 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["online_users",["tdk","lvh","lny"]]
+2026-07-06 23:54:51,856 - INFO - 127.0.0.1 - - [06/Jul/2026 23:54:51] "GET /socket.io/?EIO=4&transport=polling&t=PyuMgBB&sid=21piIS3HLMsvggC9AAAE HTTP/1.1" 200 -
+2026-07-06 23:54:51,856 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet MESSAGE data 2["online_users",["tdk","lvh","lny"]]
+2026-07-06 23:54:51,857 - INFO - emitting event "attack_mode" to TATBwy6d0kk2A1dmAAAF [/]
+2026-07-06 23:54:51,857 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 23:54:51,858 - INFO - 21piIS3HLMsvggC9AAAE: Received request to upgrade to websocket
+2026-07-06 23:54:51,858 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet MESSAGE data 0{"sid":"TATBwy6d0kk2A1dmAAAF"}
+2026-07-06 23:54:51,861 - INFO - 127.0.0.1 - - [06/Jul/2026 23:54:51] "POST /socket.io/?EIO=4&transport=polling&t=PyuMgB9&sid=21piIS3HLMsvggC9AAAE HTTP/1.1" 200 -
+2026-07-06 23:54:51,866 - INFO - 127.0.0.1 - - [06/Jul/2026 23:54:51] "GET /socket.io/?EIO=4&transport=polling&t=PyuMgBK&sid=21piIS3HLMsvggC9AAAE HTTP/1.1" 200 -
+2026-07-06 23:54:51,875 - INFO - 21piIS3HLMsvggC9AAAE: Upgrade to websocket successful
+2026-07-06 23:55:05,319 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["send_message",{"receiver":"lvh","message":"lô"}]
+2026-07-06 23:55:05,321 - INFO - received event "send_message" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:55:05,500 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-06 23:55:05,503 - INFO - tdk ENCRYPTION seq=1
+2026-07-06 23:55:05,504 - INFO - tdk DECRYPTION seq=1
+2026-07-06 23:55:05,505 - INFO - Digital Signature: VERIFIED
+2026-07-06 23:55:05,505 - INFO - emitting event "receive_message" to aC3duc0k3ufDNzLYAAAD [/]
+2026-07-06 23:55:05,505 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"ByFTc4GKK3WTv9UOOvhHTsDhpyF/ZBGGMKAPwjJEQUhf4IeBtX7zINxTeTqTO9tC+0NaRpTMlYK1rQjDb+BpAtDQ5wIuMQFbmW6lnF/PjThm+hLc9awyxSnw/QzWiN/F9LNaDUnYuMu3EEQ00NJJ1ZhTsH1+qPoRXZrD0Z5t3whg6bAm9ph7hwIPK0dfIVUtoFPLelK+/OEJR2gX9n1c/iEp6tp8G6qUX6AgKUsc8Za6UN2GyLsqO2IN8CxdcNShcOnqc63Z2j7h7qUNF8kNu4+TT1E87PbYmU+3TLke5MquiJf4CzwbvVRIIIdGR2G+UNnHnZUvT2bndAlx9FCubA==","plaintext":"l\u00f4","ciphertext":"QNwVlp0pN5PU1Brqp+HGr8YYBA==","nonce":"B7RQNA48lWL9CQel","signature":"AZ/BMTefjDMQLcgTnmZ3dmAqUX2T2gZGlQX4gYK7NsOyjxAdzbmSQ/FeZqmEJYlAMFu/lr0SfEdLZSok1Wlh1kMGhVlSVeXtfCPcyFkpbYWul468J/vU6yHi8AeBNmHIzrsMEIvQF15Kut3ichqH7XJemWYKngnTwL9a0ycQ8ZUKmwGUxulawuhhQtv6KrZvRzjE+g6TQgi/3IbUkxDwJC0e1nnK5/b9QnK+jhn121p+ARKP05ebeBBGB6go2T5u5c1XEmI/NECuqE01yb2k0JkffL+FaMuGMPYaxB/RTu8ZIplu1psLeB1nT8OC8B2uhFV5AWr8UoYLYv0RCZx2lQ==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":1,"message_id":"27b252b1-9583-4211-9993-208e550d0431","timestamp":"2026-07-06T23:55:05.500593","security_status":"VALID"}]
+2026-07-06 23:55:05,506 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:55:05,506 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"ByFTc4GKK3WTv9UOOvhHTsDhpyF/ZBGGMKAPwjJEQUhf4IeBtX7zINxTeTqTO9tC+0NaRpTMlYK1rQjDb+BpAtDQ5wIuMQFbmW6lnF/PjThm+hLc9awyxSnw/QzWiN/F9LNaDUnYuMu3EEQ00NJJ1ZhTsH1+qPoRXZrD0Z5t3whg6bAm9ph7hwIPK0dfIVUtoFPLelK+/OEJR2gX9n1c/iEp6tp8G6qUX6AgKUsc8Za6UN2GyLsqO2IN8CxdcNShcOnqc63Z2j7h7qUNF8kNu4+TT1E87PbYmU+3TLke5MquiJf4CzwbvVRIIIdGR2G+UNnHnZUvT2bndAlx9FCubA==","plaintext":"l\u00f4","ciphertext":"QNwVlp0pN5PU1Brqp+HGr8YYBA==","nonce":"B7RQNA48lWL9CQel","signature":"AZ/BMTefjDMQLcgTnmZ3dmAqUX2T2gZGlQX4gYK7NsOyjxAdzbmSQ/FeZqmEJYlAMFu/lr0SfEdLZSok1Wlh1kMGhVlSVeXtfCPcyFkpbYWul468J/vU6yHi8AeBNmHIzrsMEIvQF15Kut3ichqH7XJemWYKngnTwL9a0ycQ8ZUKmwGUxulawuhhQtv6KrZvRzjE+g6TQgi/3IbUkxDwJC0e1nnK5/b9QnK+jhn121p+ARKP05ebeBBGB6go2T5u5c1XEmI/NECuqE01yb2k0JkffL+FaMuGMPYaxB/RTu8ZIplu1psLeB1nT8OC8B2uhFV5AWr8UoYLYv0RCZx2lQ==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":1,"message_id":"27b252b1-9583-4211-9993-208e550d0431","timestamp":"2026-07-06T23:55:05.500593","security_status":"VALID"}]
+2026-07-06 23:55:06,947 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:55:06,949 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:55:14,801 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:55:14,803 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:55:16,805 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:55:16,806 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-06 23:55:31,950 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:55:31,951 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:55:39,804 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:55:39,805 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:55:41,808 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:55:41,810 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-06 23:55:56,952 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:55:56,953 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:56:04,807 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:56:04,808 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:56:06,811 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:56:06,812 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-06 23:56:21,953 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:56:21,956 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:56:26,995 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["send_message",{"receiver":"lny","message":"m\u1eb9 mày"}]
+2026-07-06 23:56:26,996 - INFO - received event "send_message" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:56:27,084 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-06 23:56:27,085 - INFO - tdk ENCRYPTION seq=2
+2026-07-06 23:56:27,085 - INFO - tdk DECRYPTION seq=2
+2026-07-06 23:56:27,085 - INFO - Digital Signature: VERIFIED
+2026-07-06 23:56:27,086 - INFO - emitting event "receive_message" to TATBwy6d0kk2A1dmAAAF [/]
+2026-07-06 23:56:27,086 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"m\u1eb9 m\u00e0y","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"VALID"}]
+2026-07-06 23:56:27,086 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:56:27,086 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"m\u1eb9 m\u00e0y","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"VALID"}]
+2026-07-06 23:56:29,809 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:56:29,810 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:56:31,813 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:56:31,814 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-06 23:56:44,136 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["disable_attacks"]
+2026-07-06 23:56:44,137 - INFO - received event "disable_attacks" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:56:44,142 - INFO - ATTACK MODE: ALL OFF
+2026-07-06 23:56:44,142 - INFO - emitting event "attack_mode" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:56:44,143 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 23:56:46,957 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:56:46,961 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:56:48,861 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["toggle_ciphertext_attack"]
+2026-07-06 23:56:48,861 - INFO - received event "toggle_ciphertext_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:56:48,862 - INFO - emitting event "attack_mode" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:56:48,862 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":true,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 23:56:54,810 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:56:54,811 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:56:56,814 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:56:56,815 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-06 23:57:02,327 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["send_message",{"receiver":"lvh","message":"alooo"}]
+2026-07-06 23:57:02,328 - INFO - received event "send_message" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:57:02,428 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-06 23:57:02,431 - INFO - tdk ENCRYPTION seq=3
+2026-07-06 23:57:02,432 - INFO - ATTACK: MODIFY CIPHERTEXT
+2026-07-06 23:57:02,432 - INFO - DECRYPT FAILED
+2026-07-06 23:57:02,433 - INFO - INVALID SIGNATURE
+2026-07-06 23:57:02,433 - INFO - emitting event "receive_message" to aC3duc0k3ufDNzLYAAAD [/]
+2026-07-06 23:57:02,434 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"Hcrj4QMLu/xKk4l98P8XWPhi4envTHc7gcgUWO/b/Ep1Nh92Tk/1fGJOevyXdVQjZnAShCrm6fFOFreGJY071fFhQD0KwmGiHmnXx5KTtlYrCBr6K5wD8VEJSOyRoNdmYeIHkGMiuBQUH5R4O7HJQteccsQnGCP8LYl20R0IbWkcYR2YZjB8aFkXLpVrZqSbMcON/rmowW6rb6sZOOxLlXNVmiY5EHMNnOCf+nx+1oV/DbGbxjw2NGMdW9+zp3aAdA3fkH+Qpcj4Mt3HHyIyNUU+0nXOiJpX9lWewuL5QdK0EzrMbr0W7GGW96+K0VDt5Huv6pGyjDo9F7Pv56e+gA==","plaintext":"[CIPHERTEXT MODIFIED]","ciphertext":"eP9sAmb7p/Vunl3VODbXY5gQfx6V","nonce":"VPkXE1TkXuPpKRPj","signature":"h0kPSM3II+/8nOTnYybJu+SALyIk3tOdvH+eY4dVJIDBKfrrAFTHI208sbAH1bq8hwE2IcGviQHudEx+9nquSFOpkDuhh4TQKtTeFbviprKgyLpXJzYhHkdWEHlT9+J3ZBFoGeqt98ba+FU+/7sqv8k0D0+ui610IV3+fDK9PryIZnD+My8fZYBElat2a+IPQAD35yF3209C6ZYH/cHdVJieYkpaQ49uBk8CAJId+mQaYYRyKgSTZlYUScxkTae6RAKSqj+4HcRJraSinBdtaLeIi3fPD3wj5UTHPBGko2u5fJQnWZke6ZRwWmdW4+MKefR1KmIYGw9LiTecFTRq1g==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":3,"message_id":"ea8fa9c2-4e84-448b-ba68-21287f269cb4","timestamp":"2026-07-06T23:57:02.429830","security_status":"CIPHERTEXT MODIFIED"}]
+2026-07-06 23:57:02,434 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:57:02,434 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"Hcrj4QMLu/xKk4l98P8XWPhi4envTHc7gcgUWO/b/Ep1Nh92Tk/1fGJOevyXdVQjZnAShCrm6fFOFreGJY071fFhQD0KwmGiHmnXx5KTtlYrCBr6K5wD8VEJSOyRoNdmYeIHkGMiuBQUH5R4O7HJQteccsQnGCP8LYl20R0IbWkcYR2YZjB8aFkXLpVrZqSbMcON/rmowW6rb6sZOOxLlXNVmiY5EHMNnOCf+nx+1oV/DbGbxjw2NGMdW9+zp3aAdA3fkH+Qpcj4Mt3HHyIyNUU+0nXOiJpX9lWewuL5QdK0EzrMbr0W7GGW96+K0VDt5Huv6pGyjDo9F7Pv56e+gA==","plaintext":"[CIPHERTEXT MODIFIED]","ciphertext":"eP9sAmb7p/Vunl3VODbXY5gQfx6V","nonce":"VPkXE1TkXuPpKRPj","signature":"h0kPSM3II+/8nOTnYybJu+SALyIk3tOdvH+eY4dVJIDBKfrrAFTHI208sbAH1bq8hwE2IcGviQHudEx+9nquSFOpkDuhh4TQKtTeFbviprKgyLpXJzYhHkdWEHlT9+J3ZBFoGeqt98ba+FU+/7sqv8k0D0+ui610IV3+fDK9PryIZnD+My8fZYBElat2a+IPQAD35yF3209C6ZYH/cHdVJieYkpaQ49uBk8CAJId+mQaYYRyKgSTZlYUScxkTae6RAKSqj+4HcRJraSinBdtaLeIi3fPD3wj5UTHPBGko2u5fJQnWZke6ZRwWmdW4+MKefR1KmIYGw9LiTecFTRq1g==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":3,"message_id":"ea8fa9c2-4e84-448b-ba68-21287f269cb4","timestamp":"2026-07-06T23:57:02.429830","security_status":"CIPHERTEXT MODIFIED"}]
+2026-07-06 23:57:11,963 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:57:11,964 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:57:19,812 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:57:19,816 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:57:21,817 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:57:21,818 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-06 23:57:36,964 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:57:36,965 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:57:37,521 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["send_message",{"receiver":"lvh","message":"aloooo"}]
+2026-07-06 23:57:37,522 - INFO - received event "send_message" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:57:37,616 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-06 23:57:37,618 - INFO - tdk ENCRYPTION seq=3
+2026-07-06 23:57:37,620 - INFO - ATTACK: MODIFY CIPHERTEXT
+2026-07-06 23:57:37,622 - INFO - DECRYPT FAILED
+2026-07-06 23:57:37,624 - INFO - INVALID SIGNATURE
+2026-07-06 23:57:37,625 - INFO - emitting event "receive_message" to aC3duc0k3ufDNzLYAAAD [/]
+2026-07-06 23:57:37,626 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"Oq9OEKcYo2mQ7rnE1awDRQbTwViiqi6MJERHj5Rzcf6T72QtPsZPX6gjNEQXsjdl8vl7iQrHL6lSYLp+RRObV2Xv21tIZZa/D91Av9Bzl3UmhdeevkWgSIx1HlnJGxniEjTstUcktcAm6cV3zxJcg6m0KeALX8hkNzv2AR/CGIY4LvpINUEQ74lPfgpxt8/jp/n0+RN5dSFKWXHIqgtSAD4bJxHiOIPAHukqtYozK65oNJy88TlVNXJ/1qNlsIVeiFPYVn9ghrDammHLAghFPP8NodjUTo1XVfHRm0yeIVojY3J6UTFezTaKczWCejPo6G0ZTxtOIe4NwyynyIkbLQ==","plaintext":"[CIPHERTEXT MODIFIED]","ciphertext":"Pjwwo9coI6sZgYQcKPz0KwKTdyysEg==","nonce":"zuNAUuigV7maXcBn","signature":"Qaem4H5QEbt+LaMJ5PJmg2ieXJtSwj6h2yNJQZdtbS16fsB7691RfvHhVXCm78hC5q9Z9HaHzaoA3/7I/QvlhFDcMxSgaJ30lBRHxcAZllof6C/q2x2nIsCUUnYyBo9zDOJllbEtRw7oSuV2t0W2iGGkdLL+ugkwZVPXMDDFjXIGudlsvumgx197LTywpHsvsEC5OeM2IYun0pPd7+dOkta4brJRhTpTEwb7uTQAbNrj4I08WNuRI3IvWkf2ADmUE+HZDHqc8xHdWVMWQr7sryhRthAY0WyXEWl3onhpDhuKH0S2/Gtv3Rn7YhzfVMfG0nm0EyomC18lw6LbXaanvA==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":3,"message_id":"cea8f530-97f7-42dc-bd8f-885ed2676758","timestamp":"2026-07-06T23:57:37.616641","security_status":"CIPHERTEXT MODIFIED"}]
+2026-07-06 23:57:37,626 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:57:37,627 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"Oq9OEKcYo2mQ7rnE1awDRQbTwViiqi6MJERHj5Rzcf6T72QtPsZPX6gjNEQXsjdl8vl7iQrHL6lSYLp+RRObV2Xv21tIZZa/D91Av9Bzl3UmhdeevkWgSIx1HlnJGxniEjTstUcktcAm6cV3zxJcg6m0KeALX8hkNzv2AR/CGIY4LvpINUEQ74lPfgpxt8/jp/n0+RN5dSFKWXHIqgtSAD4bJxHiOIPAHukqtYozK65oNJy88TlVNXJ/1qNlsIVeiFPYVn9ghrDammHLAghFPP8NodjUTo1XVfHRm0yeIVojY3J6UTFezTaKczWCejPo6G0ZTxtOIe4NwyynyIkbLQ==","plaintext":"[CIPHERTEXT MODIFIED]","ciphertext":"Pjwwo9coI6sZgYQcKPz0KwKTdyysEg==","nonce":"zuNAUuigV7maXcBn","signature":"Qaem4H5QEbt+LaMJ5PJmg2ieXJtSwj6h2yNJQZdtbS16fsB7691RfvHhVXCm78hC5q9Z9HaHzaoA3/7I/QvlhFDcMxSgaJ30lBRHxcAZllof6C/q2x2nIsCUUnYyBo9zDOJllbEtRw7oSuV2t0W2iGGkdLL+ugkwZVPXMDDFjXIGudlsvumgx197LTywpHsvsEC5OeM2IYun0pPd7+dOkta4brJRhTpTEwb7uTQAbNrj4I08WNuRI3IvWkf2ADmUE+HZDHqc8xHdWVMWQr7sryhRthAY0WyXEWl3onhpDhuKH0S2/Gtv3Rn7YhzfVMfG0nm0EyomC18lw6LbXaanvA==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":3,"message_id":"cea8f530-97f7-42dc-bd8f-885ed2676758","timestamp":"2026-07-06T23:57:37.616641","security_status":"CIPHERTEXT MODIFIED"}]
+2026-07-06 23:57:44,818 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:57:44,819 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:57:46,819 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:57:46,820 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-06 23:58:01,966 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:58:01,970 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:58:09,820 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:58:09,821 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:58:11,822 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:58:11,823 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-06 23:58:12,361 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["send_message",{"receiver":"lvh","message":"alooo0000"}]
+2026-07-06 23:58:12,362 - INFO - received event "send_message" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:58:12,454 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-06 23:58:12,456 - INFO - tdk ENCRYPTION seq=3
+2026-07-06 23:58:12,458 - INFO - ATTACK: MODIFY CIPHERTEXT
+2026-07-06 23:58:12,458 - INFO - DECRYPT FAILED
+2026-07-06 23:58:12,459 - INFO - INVALID SIGNATURE
+2026-07-06 23:58:12,459 - INFO - emitting event "receive_message" to aC3duc0k3ufDNzLYAAAD [/]
+2026-07-06 23:58:12,460 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"Zw1xwfsYqMFcZxajmm7ZIX7/CDBpNoyAg1hvO3d08fcRq1YwBz+jcARnpPczAaPNZgA+ApE8hcbVwe63veQkshA24d1UhqK9LWfDN/OmId1HyemCALzgqTnaOHk7EnTd48tsXXTmq9KicHwhuUAj0WOpA/wWcAHxOO1B+Qfbn8tG+vsvgliD9gdjkfOxyT4pbjgxf6UIGfjgQWW6PH9ikc+SfA9SB1pd7mfhgjEz8sHYCbfOhwclV29xlyfDcVXq11V+PsYF/guy/jcBkNHmp8AHOfvYbAHYSvRXrvZ9OFbJ9AFCXjuC1Mmrn2XaFEEHXwoicgRCDhPKRGfP+/1qzA==","plaintext":"[CIPHERTEXT MODIFIED]","ciphertext":"lbC66FCC0HrJmhwTxkrz6bYkahX/WziwuA==","nonce":"p7JANaxpeN/kn6Au","signature":"QqR/vdOJ89ToGaseQMKb1PZ9kLzUJByI5Sg+AWTYXGKePHjni8dW8YI/8brFU1yOUwWPU3OKdGEhC6jhZpPciuR7V7nV2+Oroa5zaAhr1NGmK1cuTVPGQKK75FeZX3GvqwDAJ7SAOC8A6TwmXIiB1tR4RUlABHXIiR6+J5R+R7GDRhK2ow8UjyHZqPkya869uYmhgcJmYbbCdtH0iHjtCOHfEKRyLI8tDVu705vFWetY25chf3xpKmeEapibC34J+9shPy1VeAMnShmLycaaeX71Xhm503C/HKgWFCFUBogIFOSzq21Hfawzi0vZTus6lCAUz2+l87EQ71RZGYpZwg==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":3,"message_id":"c695b52e-0a70-44bd-be93-44af44c93b96","timestamp":"2026-07-06T23:58:12.455324","security_status":"CIPHERTEXT MODIFIED"}]
+2026-07-06 23:58:12,460 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:58:12,461 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"Zw1xwfsYqMFcZxajmm7ZIX7/CDBpNoyAg1hvO3d08fcRq1YwBz+jcARnpPczAaPNZgA+ApE8hcbVwe63veQkshA24d1UhqK9LWfDN/OmId1HyemCALzgqTnaOHk7EnTd48tsXXTmq9KicHwhuUAj0WOpA/wWcAHxOO1B+Qfbn8tG+vsvgliD9gdjkfOxyT4pbjgxf6UIGfjgQWW6PH9ikc+SfA9SB1pd7mfhgjEz8sHYCbfOhwclV29xlyfDcVXq11V+PsYF/guy/jcBkNHmp8AHOfvYbAHYSvRXrvZ9OFbJ9AFCXjuC1Mmrn2XaFEEHXwoicgRCDhPKRGfP+/1qzA==","plaintext":"[CIPHERTEXT MODIFIED]","ciphertext":"lbC66FCC0HrJmhwTxkrz6bYkahX/WziwuA==","nonce":"p7JANaxpeN/kn6Au","signature":"QqR/vdOJ89ToGaseQMKb1PZ9kLzUJByI5Sg+AWTYXGKePHjni8dW8YI/8brFU1yOUwWPU3OKdGEhC6jhZpPciuR7V7nV2+Oroa5zaAhr1NGmK1cuTVPGQKK75FeZX3GvqwDAJ7SAOC8A6TwmXIiB1tR4RUlABHXIiR6+J5R+R7GDRhK2ow8UjyHZqPkya869uYmhgcJmYbbCdtH0iHjtCOHfEKRyLI8tDVu705vFWetY25chf3xpKmeEapibC34J+9shPy1VeAMnShmLycaaeX71Xhm503C/HKgWFCFUBogIFOSzq21Hfawzi0vZTus6lCAUz2+l87EQ71RZGYpZwg==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":3,"message_id":"c695b52e-0a70-44bd-be93-44af44c93b96","timestamp":"2026-07-06T23:58:12.455324","security_status":"CIPHERTEXT MODIFIED"}]
+2026-07-06 23:58:26,972 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:58:26,974 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:58:34,822 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:58:34,826 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:58:36,824 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:58:36,827 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-06 23:58:43,955 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["toggle_ciphertext_attack"]
+2026-07-06 23:58:43,955 - INFO - received event "toggle_ciphertext_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:58:43,956 - INFO - emitting event "attack_mode" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:58:43,957 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-06 23:58:44,825 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["toggle_sequence_attack"]
+2026-07-06 23:58:44,825 - INFO - received event "toggle_sequence_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:58:44,826 - INFO - emitting event "attack_mode" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:58:44,826 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":true,"wrong_key":false,"fake_sender":false}]
+2026-07-06 23:58:51,976 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:58:51,978 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:58:59,828 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:58:59,829 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:59:01,830 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:59:01,831 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-06 23:59:07,912 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["send_message",{"receiver":"lvh","message":"asd"}]
+2026-07-06 23:59:07,912 - INFO - received event "send_message" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:59:07,978 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-06 23:59:07,978 - INFO - ATTACK: MODIFY SEQUENCE
+2026-07-06 23:59:07,979 - INFO - INVALID SEQUENCE NUMBER
+2026-07-06 23:59:07,979 - INFO - emitting event "receive_message" to aC3duc0k3ufDNzLYAAAD [/]
+2026-07-06 23:59:07,979 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"FbvHlr6V9roOSIUrHYONyIootJqeqdOPfeAT1H6pJx/a2D/BWa+DxFpe4Ew8L4Cj8jYlxPIJx0LI54aC4GmN+i/8NKThwUOkGyM00eB1B0CDHCFpyySfo/wyZ6uAgf/Z/gJyL0ee6uH3wofHgw9+khZKtgY6w3qYA8VIyWb4TnVtR4nzFqfwpP11ZcsdU92EGno1n/l+L0QhAs+J5FuJyAROk7YT1VzGx55H+R77YK+dX/81680vtptjYkVajWxwT3hwAn9lbUT4Gc69hI3ZGwfE3G8jgl0x/q30BUiXFMASzwnBQ3r1JJ+lIwDGKXM9NGE7ZsxR8xYuDetYaTzq2g==","plaintext":"[INVALID SEQUENCE]","ciphertext":"","nonce":"a598c9af-d038-457c-9629-a3dcaa53fd62","signature":"","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":8,"message_id":"ddfcf254-f968-4ec0-b625-26790cc61190","timestamp":"2026-07-06T23:59:07.978682","security_status":"INVALID SEQUENCE"}]
+2026-07-06 23:59:07,979 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-06 23:59:07,979 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"FbvHlr6V9roOSIUrHYONyIootJqeqdOPfeAT1H6pJx/a2D/BWa+DxFpe4Ew8L4Cj8jYlxPIJx0LI54aC4GmN+i/8NKThwUOkGyM00eB1B0CDHCFpyySfo/wyZ6uAgf/Z/gJyL0ee6uH3wofHgw9+khZKtgY6w3qYA8VIyWb4TnVtR4nzFqfwpP11ZcsdU92EGno1n/l+L0QhAs+J5FuJyAROk7YT1VzGx55H+R77YK+dX/81680vtptjYkVajWxwT3hwAn9lbUT4Gc69hI3ZGwfE3G8jgl0x/q30BUiXFMASzwnBQ3r1JJ+lIwDGKXM9NGE7ZsxR8xYuDetYaTzq2g==","plaintext":"[INVALID SEQUENCE]","ciphertext":"","nonce":"a598c9af-d038-457c-9629-a3dcaa53fd62","signature":"","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":8,"message_id":"ddfcf254-f968-4ec0-b625-26790cc61190","timestamp":"2026-07-06T23:59:07.978682","security_status":"INVALID SEQUENCE"}]
+2026-07-06 23:59:16,979 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:59:16,980 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:59:24,830 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:59:24,831 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:59:26,832 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:59:26,833 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-06 23:59:41,981 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-06 23:59:41,981 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-06 23:59:49,831 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-06 23:59:49,834 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-06 23:59:51,834 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-06 23:59:51,838 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:00:06,982 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:00:06,983 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:00:14,836 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:00:14,837 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:00:16,840 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:00:16,842 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:00:31,984 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:00:31,986 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:00:39,839 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:00:39,841 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:00:41,843 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:00:41,845 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:00:56,987 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:00:56,988 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:01:04,842 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:01:04,844 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:01:06,846 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:01:06,847 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:01:21,989 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:01:21,990 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:01:29,845 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:01:29,846 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:01:31,849 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:01:31,852 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:01:39,326 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["toggle_sequence_attack"]
+2026-07-07 00:01:39,326 - INFO - received event "toggle_sequence_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:01:39,327 - INFO - emitting event "attack_mode" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:01:39,327 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-07 00:01:46,991 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:01:46,992 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:01:54,847 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:01:54,848 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:01:56,854 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:01:56,855 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:02:11,993 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:02:11,994 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:02:19,848 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:02:19,849 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:02:21,856 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:02:21,857 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:02:36,995 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:02:36,996 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:02:44,850 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:02:44,851 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:02:46,858 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:02:46,858 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:03:01,996 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:03:01,997 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:03:04,481 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["replay_attack"]
+2026-07-07 00:03:04,481 - INFO - received event "replay_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:04,482 - INFO - REPLAY ATTACK DETECTED
+2026-07-07 00:03:04,482 - INFO - emitting event "receive_message" to TATBwy6d0kk2A1dmAAAF [/]
+2026-07-07 00:03:04,482 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:04,486 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:04,487 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:07,191 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["replay_attack"]
+2026-07-07 00:03:07,192 - INFO - received event "replay_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:07,193 - INFO - REPLAY ATTACK DETECTED
+2026-07-07 00:03:07,193 - INFO - emitting event "receive_message" to TATBwy6d0kk2A1dmAAAF [/]
+2026-07-07 00:03:07,193 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:07,193 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:07,193 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:09,852 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:03:09,856 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:03:11,859 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:03:11,860 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:03:12,816 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["replay_attack"]
+2026-07-07 00:03:12,818 - INFO - received event "replay_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:12,820 - INFO - REPLAY ATTACK DETECTED
+2026-07-07 00:03:12,821 - INFO - emitting event "receive_message" to TATBwy6d0kk2A1dmAAAF [/]
+2026-07-07 00:03:12,822 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:12,824 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:12,826 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:13,846 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["replay_attack"]
+2026-07-07 00:03:13,846 - INFO - received event "replay_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:13,847 - INFO - REPLAY ATTACK DETECTED
+2026-07-07 00:03:13,847 - INFO - emitting event "receive_message" to TATBwy6d0kk2A1dmAAAF [/]
+2026-07-07 00:03:13,848 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:13,848 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:13,848 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:14,036 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["replay_attack"]
+2026-07-07 00:03:14,036 - INFO - received event "replay_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:14,037 - INFO - REPLAY ATTACK DETECTED
+2026-07-07 00:03:14,038 - INFO - emitting event "receive_message" to TATBwy6d0kk2A1dmAAAF [/]
+2026-07-07 00:03:14,038 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:14,038 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:14,038 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:26,998 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:03:26,999 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:03:34,859 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:03:34,860 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:03:36,860 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:03:36,861 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:03:40,009 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["replay_attack"]
+2026-07-07 00:03:40,009 - INFO - received event "replay_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:40,010 - INFO - REPLAY ATTACK DETECTED
+2026-07-07 00:03:40,010 - INFO - emitting event "receive_message" to TATBwy6d0kk2A1dmAAAF [/]
+2026-07-07 00:03:40,010 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:40,011 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:40,011 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lny","encrypted_session_key":"PnzEGRzDKVfUOsLHlV5e98aHztTnrtTQKCpKIzJKSDeNBLBcDVzv4eo+WSQJtRmYBu20lzwszjD4dEozzA8FKpoRHEAgB0YBHBM0u/kRW8A8kc6peNNWk2g+fQOtpnfre/e7phsiyxVQrlXothYrdJpDFFfn0H8V4OGx0DSFJhdZ6gUrdMnKuzL75UeAEaiNDsm3F3gXgcVfxxgPgdilyhcm1C6waKVZ3Ha7NelML+c+8tkBsb5/MqCsCRqVbLuApeeskON+l+aXo49i6ao5XmtFkyWYWxUfFzaT8NkLi+pbElzBovTwphegxiJdzToOYhdw9iFdcIJ39zlpIxgxRQ==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"ih2+3nI1gIMmt2FXJgYatejV0eCkmktRig==","nonce":"lZkC1dRJk3loowdn","signature":"adtx7AnTJ9CKnArW8Kb5KieuthjEbQGnQyPI0L94cPaVKce3iqaozTK5xgZ9y47V5c8wHcCKP/WWXO5Pr+gcoe8IcCJEYUP2AurohGl8sYUv+eiTAE9FA4KJIm9YVo83aPHUK1TVzMb5LeEfGuPK8cFg00yy9QOmoUJz6PjxHApq822egV9ZuClvwR1PGJFv5Z7aR6f/PKfZ7MEjNgtnx50M8xjxmJTw0I7MRw/hhBmauDr2FVLIo71qwOm1i8zHEzeo/BIhP/RkpJp8whYXsb2spp3OKAgC/Xc4KAdNEZOKt+Ehz8XLnCuJ2YDpgebJWG4KY0ot4XFl58OiQyb0fQ==","session_id":"77840424-5637-4ffa-baa4-3aa846657c40","sequence_number":2,"message_id":"2829cc34-caed-4a0c-8fba-54a88787515a","timestamp":"2026-07-06T23:56:27.084587","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:46,688 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["send_message",{"receiver":"lvh","message":"aloo"}]
+2026-07-07 00:03:46,688 - INFO - received event "send_message" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:46,764 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-07 00:03:46,765 - INFO - tdk ENCRYPTION seq=3
+2026-07-07 00:03:46,766 - INFO - tdk DECRYPTION seq=3
+2026-07-07 00:03:46,766 - INFO - Digital Signature: VERIFIED
+2026-07-07 00:03:46,766 - INFO - emitting event "receive_message" to aC3duc0k3ufDNzLYAAAD [/]
+2026-07-07 00:03:46,767 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"6D4+d6Ic6vNMLjohRDYgB2+XAT2J00/Lk/KVYT9o/9ZRFNl+3S40IcY1vIby8qiHg01P4+LzrYDkWW2mR6TaRaJQHgJvRWXtRqN7iDjVj5NGL/eCT0v9kxR89NPzcSHeBkrBN9X01JSWVNjOYx8/dCi3O5foDl1DsN9EbejS4R7a9V18W9fyDgBcGgEtoPcxaNQijqJnFuw3S1xHoocjw8aKKkWrpL+pUogcJKWaoSrNB3E20etw7453ytjWfP0TS+nDHGAU2+ZavmdmQy91po59KDin1JLF1LDxAgjX6As5EpQp1KWWaj6CPX2/HABK0zkGXpH9j6IBxZWtRT858A==","plaintext":"aloo","ciphertext":"PzdEx5IGJIsk88vfZ5l8rIsxjyo=","nonce":"AVH/M5LDhwSPP7t6","signature":"GTlIQ1c1qq2R2FAoj8SVNmOBLAiJocPMAbm+/CTcGmS6rvE9AKtbtvU9/gO6veR5U1KfeqDf2Rw5Jhfcvr2+6lXjka3ZAYxfQ0x42ypbH4j+D6Zdpj1uZTEUQI0aODmC/Pdby2pk1lUh3jKz+zYoDnJqgCcMNBBVTuxcfDCwdnDtrZl35QPzErHJLDerv6C4Jv/LsxOTLaZYZUcx/IUqByk1C3+jdfkmAWWCH6GDM1r5ie/yXNZ3PqJIJKiHvjDzF0hzDH6CRkjK2ra/F1ENkHvAAwzr5gaZT4P6wrYpabtCRAau/lVUYfdGYaT8tfPTfpEizIyEkYRnpZVOb4ueBg==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":3,"message_id":"8c794d5f-ad02-48ea-84b3-717fd7410b72","timestamp":"2026-07-07T00:03:46.764685","security_status":"VALID"}]
+2026-07-07 00:03:46,767 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:46,767 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"6D4+d6Ic6vNMLjohRDYgB2+XAT2J00/Lk/KVYT9o/9ZRFNl+3S40IcY1vIby8qiHg01P4+LzrYDkWW2mR6TaRaJQHgJvRWXtRqN7iDjVj5NGL/eCT0v9kxR89NPzcSHeBkrBN9X01JSWVNjOYx8/dCi3O5foDl1DsN9EbejS4R7a9V18W9fyDgBcGgEtoPcxaNQijqJnFuw3S1xHoocjw8aKKkWrpL+pUogcJKWaoSrNB3E20etw7453ytjWfP0TS+nDHGAU2+ZavmdmQy91po59KDin1JLF1LDxAgjX6As5EpQp1KWWaj6CPX2/HABK0zkGXpH9j6IBxZWtRT858A==","plaintext":"aloo","ciphertext":"PzdEx5IGJIsk88vfZ5l8rIsxjyo=","nonce":"AVH/M5LDhwSPP7t6","signature":"GTlIQ1c1qq2R2FAoj8SVNmOBLAiJocPMAbm+/CTcGmS6rvE9AKtbtvU9/gO6veR5U1KfeqDf2Rw5Jhfcvr2+6lXjka3ZAYxfQ0x42ypbH4j+D6Zdpj1uZTEUQI0aODmC/Pdby2pk1lUh3jKz+zYoDnJqgCcMNBBVTuxcfDCwdnDtrZl35QPzErHJLDerv6C4Jv/LsxOTLaZYZUcx/IUqByk1C3+jdfkmAWWCH6GDM1r5ie/yXNZ3PqJIJKiHvjDzF0hzDH6CRkjK2ra/F1ENkHvAAwzr5gaZT4P6wrYpabtCRAau/lVUYfdGYaT8tfPTfpEizIyEkYRnpZVOb4ueBg==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":3,"message_id":"8c794d5f-ad02-48ea-84b3-717fd7410b72","timestamp":"2026-07-07T00:03:46.764685","security_status":"VALID"}]
+2026-07-07 00:03:50,148 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["replay_attack"]
+2026-07-07 00:03:50,148 - INFO - received event "replay_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:50,149 - INFO - REPLAY ATTACK DETECTED
+2026-07-07 00:03:50,149 - INFO - emitting event "receive_message" to aC3duc0k3ufDNzLYAAAD [/]
+2026-07-07 00:03:50,149 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"6D4+d6Ic6vNMLjohRDYgB2+XAT2J00/Lk/KVYT9o/9ZRFNl+3S40IcY1vIby8qiHg01P4+LzrYDkWW2mR6TaRaJQHgJvRWXtRqN7iDjVj5NGL/eCT0v9kxR89NPzcSHeBkrBN9X01JSWVNjOYx8/dCi3O5foDl1DsN9EbejS4R7a9V18W9fyDgBcGgEtoPcxaNQijqJnFuw3S1xHoocjw8aKKkWrpL+pUogcJKWaoSrNB3E20etw7453ytjWfP0TS+nDHGAU2+ZavmdmQy91po59KDin1JLF1LDxAgjX6As5EpQp1KWWaj6CPX2/HABK0zkGXpH9j6IBxZWtRT858A==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"PzdEx5IGJIsk88vfZ5l8rIsxjyo=","nonce":"AVH/M5LDhwSPP7t6","signature":"GTlIQ1c1qq2R2FAoj8SVNmOBLAiJocPMAbm+/CTcGmS6rvE9AKtbtvU9/gO6veR5U1KfeqDf2Rw5Jhfcvr2+6lXjka3ZAYxfQ0x42ypbH4j+D6Zdpj1uZTEUQI0aODmC/Pdby2pk1lUh3jKz+zYoDnJqgCcMNBBVTuxcfDCwdnDtrZl35QPzErHJLDerv6C4Jv/LsxOTLaZYZUcx/IUqByk1C3+jdfkmAWWCH6GDM1r5ie/yXNZ3PqJIJKiHvjDzF0hzDH6CRkjK2ra/F1ENkHvAAwzr5gaZT4P6wrYpabtCRAau/lVUYfdGYaT8tfPTfpEizIyEkYRnpZVOb4ueBg==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":3,"message_id":"8c794d5f-ad02-48ea-84b3-717fd7410b72","timestamp":"2026-07-07T00:03:46.764685","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:50,149 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:03:50,149 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"6D4+d6Ic6vNMLjohRDYgB2+XAT2J00/Lk/KVYT9o/9ZRFNl+3S40IcY1vIby8qiHg01P4+LzrYDkWW2mR6TaRaJQHgJvRWXtRqN7iDjVj5NGL/eCT0v9kxR89NPzcSHeBkrBN9X01JSWVNjOYx8/dCi3O5foDl1DsN9EbejS4R7a9V18W9fyDgBcGgEtoPcxaNQijqJnFuw3S1xHoocjw8aKKkWrpL+pUogcJKWaoSrNB3E20etw7453ytjWfP0TS+nDHGAU2+ZavmdmQy91po59KDin1JLF1LDxAgjX6As5EpQp1KWWaj6CPX2/HABK0zkGXpH9j6IBxZWtRT858A==","plaintext":"[REPLAY ATTACK DETECTED]","ciphertext":"PzdEx5IGJIsk88vfZ5l8rIsxjyo=","nonce":"AVH/M5LDhwSPP7t6","signature":"GTlIQ1c1qq2R2FAoj8SVNmOBLAiJocPMAbm+/CTcGmS6rvE9AKtbtvU9/gO6veR5U1KfeqDf2Rw5Jhfcvr2+6lXjka3ZAYxfQ0x42ypbH4j+D6Zdpj1uZTEUQI0aODmC/Pdby2pk1lUh3jKz+zYoDnJqgCcMNBBVTuxcfDCwdnDtrZl35QPzErHJLDerv6C4Jv/LsxOTLaZYZUcx/IUqByk1C3+jdfkmAWWCH6GDM1r5ie/yXNZ3PqJIJKiHvjDzF0hzDH6CRkjK2ra/F1ENkHvAAwzr5gaZT4P6wrYpabtCRAau/lVUYfdGYaT8tfPTfpEizIyEkYRnpZVOb4ueBg==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":3,"message_id":"8c794d5f-ad02-48ea-84b3-717fd7410b72","timestamp":"2026-07-07T00:03:46.764685","security_status":"REPLAY ATTACK DETECTED"}]
+2026-07-07 00:03:52,001 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:03:52,002 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:03:59,861 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:03:59,861 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:04:01,861 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:04:01,862 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:04:17,003 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:04:17,005 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:04:19,968 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["toggle_wrong_key_attack"]
+2026-07-07 00:04:19,968 - INFO - received event "toggle_wrong_key_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:04:19,969 - INFO - emitting event "attack_mode" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:04:19,969 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":true,"fake_sender":false}]
+2026-07-07 00:04:24,863 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:04:24,865 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:04:26,863 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:04:26,864 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:04:42,006 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:04:42,008 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:04:49,866 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:04:49,867 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:04:51,865 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:04:51,866 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:05:07,009 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:05:07,010 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:05:14,869 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:05:14,870 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:05:16,867 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:05:16,868 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:05:32,011 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:05:32,012 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:05:39,871 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:05:39,873 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:05:41,870 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:05:41,871 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:05:57,013 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:05:57,015 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:06:04,875 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:06:04,875 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:06:06,872 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:06:06,874 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:06:22,017 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:06:22,018 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:06:29,876 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:06:29,878 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:06:31,875 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:06:31,877 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:06:47,020 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:06:47,021 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:06:54,880 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:06:54,881 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:06:56,877 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:06:56,879 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:07:12,022 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:07:12,023 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:07:19,881 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:07:19,883 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:07:21,880 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:07:21,880 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:07:37,025 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:07:37,025 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:07:44,884 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:07:44,884 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:07:46,881 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:07:46,882 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:07:56,473 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["send_message",{"receiver":"lvh","message":"aloo"}]
+2026-07-07 00:07:56,474 - INFO - received event "send_message" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:07:56,564 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-07 00:07:56,569 - INFO - tdk ENCRYPTION seq=4
+2026-07-07 00:07:56,570 - INFO - ATTACK: WRONG SESSION KEY
+2026-07-07 00:07:56,570 - INFO - DECRYPT FAILED
+2026-07-07 00:07:56,571 - INFO - INVALID SIGNATURE
+2026-07-07 00:07:56,571 - INFO - emitting event "receive_message" to aC3duc0k3ufDNzLYAAAD [/]
+2026-07-07 00:07:56,572 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"stGgaFAYbHYja/lJTkGYYkhmAWOBheQOpCfUx4oQswsgwlHx3p8dm7GBtWL+8SW5ct3F2fFwIObSC9WigOQyfFEJwFLvCsApSmsJNgoQNg2MUmlrAfgVB7VHwHf8Ax5qTXS0JNPQQiNRl0lp1c696W4tdpGRzoWwfjMkQb63udR6INpMl8LaVyxvIrohY9gx4n1CWtxpkfhZjAegrwvLFd5KNl9cyWtlgbkaPEZ7dAj1saGV4sAP/v8gj6Cz8ts6AOGsw8UIU7/nR1Ba9LQVArlsEvigYa+u0g1GyO6TAVhZOLt7IF+lIktugOYUZW3zWl8J+KxCw/ZmdBFyqSq3Bw==","plaintext":"[WRONG SESSION KEY]","ciphertext":"EU1Z53ZWI5YBQr0sg/cn7JGoASo=","nonce":"6qQ0n0v8+rMccpp3","signature":"MzjZgO0qcbZpeCT0eGldNQJmPY19cPvxaTMxZczPrB5iYOVvL/Jhx7MQS++3WJYfVIzy5f+p7q5jhIM6WzYb7XecdABlNrV7fV72ur0ly4fw0ERiimNqgP+IhxVBR1JxneYJtDA2liY2v+cT9MD5b1+r3H8+tRo3cGCcwLVMCy1CNCMt+DWcZTX+qx90TQ3jff5XskmASFp4VMgF4FdasSk6IwMDNE6ZA10y3cml+frW12scF64PegAvk13bj5nDyWlUoEbunKNttiv7AxyAJq7CiYamIhAOxZUG4GD1WoiMQEGQh1BDnYCIJnlwb7ZubMkxeaQa75z+GGmq/rQpgA==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":4,"message_id":"8f25bbc5-0fc0-43f2-ad1e-c552f9e38adf","timestamp":"2026-07-07T00:07:56.565695","security_status":"WRONG SESSION KEY"}]
+2026-07-07 00:07:56,573 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:07:56,574 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"stGgaFAYbHYja/lJTkGYYkhmAWOBheQOpCfUx4oQswsgwlHx3p8dm7GBtWL+8SW5ct3F2fFwIObSC9WigOQyfFEJwFLvCsApSmsJNgoQNg2MUmlrAfgVB7VHwHf8Ax5qTXS0JNPQQiNRl0lp1c696W4tdpGRzoWwfjMkQb63udR6INpMl8LaVyxvIrohY9gx4n1CWtxpkfhZjAegrwvLFd5KNl9cyWtlgbkaPEZ7dAj1saGV4sAP/v8gj6Cz8ts6AOGsw8UIU7/nR1Ba9LQVArlsEvigYa+u0g1GyO6TAVhZOLt7IF+lIktugOYUZW3zWl8J+KxCw/ZmdBFyqSq3Bw==","plaintext":"[WRONG SESSION KEY]","ciphertext":"EU1Z53ZWI5YBQr0sg/cn7JGoASo=","nonce":"6qQ0n0v8+rMccpp3","signature":"MzjZgO0qcbZpeCT0eGldNQJmPY19cPvxaTMxZczPrB5iYOVvL/Jhx7MQS++3WJYfVIzy5f+p7q5jhIM6WzYb7XecdABlNrV7fV72ur0ly4fw0ERiimNqgP+IhxVBR1JxneYJtDA2liY2v+cT9MD5b1+r3H8+tRo3cGCcwLVMCy1CNCMt+DWcZTX+qx90TQ3jff5XskmASFp4VMgF4FdasSk6IwMDNE6ZA10y3cml+frW12scF64PegAvk13bj5nDyWlUoEbunKNttiv7AxyAJq7CiYamIhAOxZUG4GD1WoiMQEGQh1BDnYCIJnlwb7ZubMkxeaQa75z+GGmq/rQpgA==","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":4,"message_id":"8f25bbc5-0fc0-43f2-ad1e-c552f9e38adf","timestamp":"2026-07-07T00:07:56.565695","security_status":"WRONG SESSION KEY"}]
+2026-07-07 00:08:02,026 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:08:02,027 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:08:09,885 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:08:09,886 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:08:11,883 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:08:11,884 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:08:27,029 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:08:27,030 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:08:34,888 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:08:34,888 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:08:36,886 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:08:36,887 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:08:40,549 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["toggle_wrong_key_attack"]
+2026-07-07 00:08:40,549 - INFO - received event "toggle_wrong_key_attack" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:08:40,550 - INFO - emitting event "attack_mode" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:08:40,550 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-07 00:08:48,929 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["toggle_fake_sender"]
+2026-07-07 00:08:48,929 - INFO - received event "toggle_fake_sender" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:08:48,930 - INFO - emitting event "attack_mode" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:08:48,930 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":true}]
+2026-07-07 00:08:52,031 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:08:52,032 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:08:59,889 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:08:59,891 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:09:01,888 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:09:01,889 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:09:17,033 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:09:17,034 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:09:24,892 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:09:24,893 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:09:26,890 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:09:26,890 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:09:31,138 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["send_message",{"receiver":"lvh","message":"alo"}]
+2026-07-07 00:09:31,138 - INFO - received event "send_message" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:09:31,234 - INFO - RSA-OAEP Key Exchange: SUCCESS
+2026-07-07 00:09:31,237 - INFO - tdk ENCRYPTION seq=4
+2026-07-07 00:09:31,239 - INFO - ATTACK: FAKE SENDER
+2026-07-07 00:09:31,242 - INFO - tdk DECRYPTION seq=4
+2026-07-07 00:09:31,244 - INFO - INVALID SIGNATURE
+2026-07-07 00:09:31,245 - INFO - emitting event "receive_message" to aC3duc0k3ufDNzLYAAAD [/]
+2026-07-07 00:09:31,250 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"4RfjkTzw0JT9yHAoTgq1OJr7mY9zg7NGsqpQBO4X83OjYpxqlOVzLr2PJFTtYYY/cQe6fLw9K2SE3oLnuzWI3QuQIFQRXSO0AdBJu5K+pJANnTILfWbmYNtz6TBUwgl4a4OdEgUwLgxJb2IQtydmobo6j1Klm4PGMLISxygKpgCc070C0AqKektuW//gkKKGzu0W2HGsC+Zjw15p3R1kTGaE0LB3s9u4ydB0fDY4zkEVqY2B8uVGQb+MLWhs6d4zDSe7K7WQDhMZwEt0TlI7kgvCQ0eGnOf7P/LR2+z+ZfT9JThoiuC4Rz9prrbeAuhBOw3Y/IJ9YNb4I4en/j4fIA==","plaintext":"[INVALID SIGNATURE]","ciphertext":"8nVQP5Xc0Bl+r3VlZGzD2jMS1A==","nonce":"vqMNXL311apK8sq3","signature":"AAAA","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":4,"message_id":"e81b53a5-6457-45e5-ba9f-a5c8c68dab63","timestamp":"2026-07-07T00:09:31.235735","security_status":"INVALID SIGNATURE"}]
+2026-07-07 00:09:31,252 - INFO - emitting event "receive_message" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:09:31,255 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["receive_message",{"sender":"tdk","receiver":"lvh","encrypted_session_key":"4RfjkTzw0JT9yHAoTgq1OJr7mY9zg7NGsqpQBO4X83OjYpxqlOVzLr2PJFTtYYY/cQe6fLw9K2SE3oLnuzWI3QuQIFQRXSO0AdBJu5K+pJANnTILfWbmYNtz6TBUwgl4a4OdEgUwLgxJb2IQtydmobo6j1Klm4PGMLISxygKpgCc070C0AqKektuW//gkKKGzu0W2HGsC+Zjw15p3R1kTGaE0LB3s9u4ydB0fDY4zkEVqY2B8uVGQb+MLWhs6d4zDSe7K7WQDhMZwEt0TlI7kgvCQ0eGnOf7P/LR2+z+ZfT9JThoiuC4Rz9prrbeAuhBOw3Y/IJ9YNb4I4en/j4fIA==","plaintext":"[INVALID SIGNATURE]","ciphertext":"8nVQP5Xc0Bl+r3VlZGzD2jMS1A==","nonce":"vqMNXL311apK8sq3","signature":"AAAA","session_id":"8f6132e9-6376-4ea3-9d3a-34097e57fc3e","sequence_number":4,"message_id":"e81b53a5-6457-45e5-ba9f-a5c8c68dab63","timestamp":"2026-07-07T00:09:31.235735","security_status":"INVALID SIGNATURE"}]
+2026-07-07 00:09:35,748 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet MESSAGE data 2["toggle_fake_sender"]
+2026-07-07 00:09:35,748 - INFO - received event "toggle_fake_sender" from JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:09:35,749 - INFO - emitting event "attack_mode" to JFSPGq8K_r5bTADWAAAB [/]
+2026-07-07 00:09:35,749 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-07 00:09:42,035 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:09:42,036 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:09:49,894 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:09:49,895 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:09:51,891 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:09:51,892 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:10:07,037 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:10:07,039 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:10:14,897 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:10:14,898 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:10:16,893 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:10:16,894 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:10:32,041 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:10:32,043 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:10:39,899 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:10:39,899 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:10:41,894 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:10:41,898 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:10:57,044 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:10:57,045 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:11:04,900 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:11:04,901 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:11:06,899 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:11:06,900 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:11:22,046 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:11:22,047 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:11:29,902 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:11:29,903 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:11:31,900 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:11:31,901 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:11:47,048 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:11:47,051 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:11:54,905 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:11:54,907 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:11:56,902 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:11:56,904 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:12:12,053 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:12:12,054 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:12:19,908 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:12:19,910 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:12:21,905 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:12:21,907 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:12:37,055 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:12:37,056 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:12:44,911 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:12:44,912 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:12:46,910 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:12:46,911 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:13:02,057 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:13:02,058 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:13:09,913 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:13:09,914 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:13:11,912 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:13:11,913 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:13:27,060 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:13:27,060 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:13:34,915 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:13:34,916 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:13:36,914 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:13:36,915 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:13:52,061 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:13:52,062 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:13:59,916 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:13:59,918 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:14:01,916 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:14:01,917 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:14:17,063 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:14:17,064 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:14:24,919 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:14:24,919 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:14:26,918 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:14:26,919 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:14:42,065 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:14:42,066 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:14:49,920 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:14:49,921 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:14:51,920 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:14:51,921 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:15:07,067 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:15:07,069 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:15:14,923 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:15:14,924 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:15:16,922 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:15:16,924 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:15:32,070 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:15:32,071 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:15:39,924 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:15:39,926 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:15:41,925 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:15:41,926 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:15:57,073 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:15:57,074 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:16:04,927 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:16:04,928 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:16:06,927 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:16:06,928 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:16:22,076 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:16:22,077 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:16:29,929 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:16:29,929 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:16:31,929 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:16:31,929 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:16:47,079 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:16:47,080 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:16:54,930 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:16:54,932 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:16:56,930 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:16:56,931 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:17:12,083 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:17:12,083 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:17:19,933 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:17:19,934 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:17:21,931 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:17:21,932 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:17:37,084 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:17:37,085 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:17:44,934 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:17:44,936 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:17:46,934 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:17:46,935 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:18:02,086 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:18:02,087 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:18:09,937 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:18:09,938 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:18:11,935 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:18:11,936 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:18:27,088 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:18:27,089 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:18:34,940 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:18:34,941 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:18:36,938 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:18:36,941 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:18:52,090 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:18:52,091 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:18:59,942 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:18:59,944 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:19:01,942 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:19:01,944 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:19:17,092 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:19:17,094 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:19:24,945 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:19:24,948 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:19:26,945 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:19:26,946 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:19:42,095 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:19:42,096 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:19:49,950 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:19:49,951 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:19:51,947 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:19:51,949 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:20:07,097 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:20:07,098 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:20:14,952 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:20:14,952 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:20:16,949 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:20:16,950 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:20:32,099 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:20:32,100 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:20:39,953 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:20:39,954 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:20:41,951 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:20:41,952 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:20:57,101 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:20:57,102 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:21:04,954 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:21:04,955 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:21:06,953 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:21:06,954 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:21:22,103 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:21:22,105 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:21:29,956 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:21:29,957 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:21:31,955 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:21:31,956 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:21:47,106 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:21:47,107 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:21:54,958 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:21:54,959 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:21:56,957 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:21:56,958 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:22:12,108 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:22:12,109 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:22:19,960 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:22:19,961 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:22:21,959 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:22:21,960 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:22:37,110 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:22:37,112 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:22:44,963 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:22:44,964 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:22:46,961 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:22:46,962 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:23:02,113 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:23:02,114 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:23:09,965 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:23:09,966 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:23:11,963 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:23:11,964 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:23:27,115 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:23:27,116 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:23:34,967 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:23:34,968 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:23:36,965 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:23:36,966 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:23:52,117 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:23:52,118 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:23:59,969 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:23:59,969 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:24:01,967 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:24:01,968 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:24:17,120 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:24:17,120 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:24:24,970 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:24:24,972 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:24:26,969 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:24:26,970 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:24:42,121 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:24:42,123 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:24:49,975 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:24:49,976 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:24:51,971 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:24:51,972 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:25:07,123 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:25:07,127 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:25:14,977 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:25:14,979 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:25:16,974 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:25:16,975 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:25:32,129 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:25:32,130 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:25:39,979 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:25:39,980 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:25:41,976 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:25:41,978 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:25:57,132 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:25:57,133 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:26:04,982 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:26:04,983 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:26:06,979 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:26:06,980 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:26:22,134 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:26:22,135 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:26:29,983 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:26:29,985 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:26:31,981 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:26:31,982 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:26:47,136 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:26:47,138 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:26:54,987 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:26:54,988 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:26:56,983 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:26:56,984 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:27:12,139 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:27:12,140 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:27:19,988 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:27:19,990 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:27:21,985 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:27:21,986 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:27:37,141 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:27:37,142 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:27:44,991 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:27:44,992 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:27:46,987 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:27:46,988 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:28:02,143 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:28:02,145 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:28:09,993 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:28:09,995 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:28:11,989 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:28:11,989 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:28:27,146 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:28:27,146 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:28:34,996 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:28:34,997 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:28:36,990 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:28:36,992 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:28:52,147 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:28:52,149 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:28:59,999 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:29:00,000 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:29:01,993 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:29:01,993 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:29:17,151 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:29:17,152 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:29:25,000 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:29:25,001 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:29:26,995 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:29:26,996 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:29:42,153 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:29:42,154 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:29:50,002 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:29:50,003 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:29:51,997 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:29:51,998 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:30:07,155 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:30:07,156 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:30:15,004 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:30:15,006 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:30:17,001 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:30:17,002 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:30:32,157 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:30:32,158 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:30:40,006 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:30:40,008 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:30:42,003 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:30:42,004 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:30:57,159 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:30:57,160 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:31:05,009 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:31:05,011 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:31:07,005 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:31:07,006 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:31:22,161 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:31:22,162 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:31:30,012 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:31:30,013 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:31:32,007 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:31:32,009 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:31:47,163 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:31:47,164 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:31:55,014 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:31:55,015 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:31:57,010 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:31:57,011 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:32:12,166 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:32:12,167 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:32:20,018 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:32:20,019 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:32:22,012 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:32:22,013 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:32:37,168 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:32:37,168 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:32:45,020 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:32:45,021 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:32:47,014 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:32:47,016 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:33:02,170 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:33:02,171 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:33:10,022 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:33:10,023 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:33:12,016 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:33:12,017 - INFO - 21piIS3HLMsvggC9AAAE: Received packet PONG data 
+2026-07-07 00:33:27,172 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:33:27,174 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:33:35,024 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:33:35,025 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:33:37,018 - INFO - 21piIS3HLMsvggC9AAAE: Sending packet PING data None
+2026-07-07 00:33:52,176 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:33:52,177 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:34:00,026 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:34:00,027 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:34:06,096 - INFO - 21piIS3HLMsvggC9AAAE: Client is gone, closing socket
+2026-07-07 00:34:06,100 - INFO - emitting event "online_users" to all [/]
+2026-07-07 00:34:06,101 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet MESSAGE data 2["online_users",["tdk","lvh"]]
+2026-07-07 00:34:06,101 - INFO - t4i2mIufad03_STVAAAC: Sending packet MESSAGE data 2["online_users",["tdk","lvh"]]
+2026-07-07 00:34:06,101 - INFO - 21piIS3HLMsvggC9AAAE: Client is gone, closing socket
+2026-07-07 00:34:06,102 - INFO - 21piIS3HLMsvggC9AAAE: Client is gone, closing socket
+2026-07-07 00:34:06,111 - INFO - 127.0.0.1 - - [07/Jul/2026 00:34:06] "GET /socket.io/?EIO=4&transport=websocket&sid=21piIS3HLMsvggC9AAAE HTTP/1.1" 200 -
+2026-07-07 00:34:17,178 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:34:17,179 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:34:25,029 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:34:25,030 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:34:42,180 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:34:42,181 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:34:50,032 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:34:50,033 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:35:07,182 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:35:07,183 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:35:15,034 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:35:15,035 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:35:32,184 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:35:32,185 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:35:40,036 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:35:40,037 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:35:57,187 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:35:57,188 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:36:05,039 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:36:05,040 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:36:22,188 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:36:22,190 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:36:30,040 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:36:30,041 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:36:47,191 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:36:47,195 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:36:55,043 - INFO - sX6eA5-RKpZcZrVRAAAA: Sending packet PING data None
+2026-07-07 00:36:55,044 - INFO - sX6eA5-RKpZcZrVRAAAA: Received packet PONG data 
+2026-07-07 00:37:12,197 - INFO - t4i2mIufad03_STVAAAC: Sending packet PING data None
+2026-07-07 00:37:12,197 - INFO - t4i2mIufad03_STVAAAC: Received packet PONG data 
+2026-07-07 00:39:24,619 - INFO - Server initialized for threading.
+2026-07-07 00:39:25,510 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.184:5000
+2026-07-07 00:39:25,510 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-07 00:39:26,274 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet OPEN data {'sid': '_pMnyADEyhO4FeCqAAAA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2026-07-07 00:39:26,277 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet OPEN data {'sid': '-0ZNHGd5LUsBC256AAAB', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2026-07-07 00:39:26,279 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:26] "GET /socket.io/?EIO=4&transport=polling&t=PyuWt6v HTTP/1.1" 200 -
+2026-07-07 00:39:26,280 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:26] "GET /socket.io/?EIO=4&transport=polling&t=PyuWt6v HTTP/1.1" 200 -
+2026-07-07 00:39:26,292 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet MESSAGE data 0
+2026-07-07 00:39:26,295 - INFO - emitting event "online_users" to all [/]
+2026-07-07 00:39:26,294 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet MESSAGE data 0
+2026-07-07 00:39:26,296 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet MESSAGE data 2["online_users",["lny"]]
+2026-07-07 00:39:26,298 - INFO - _pMnyADEyhO4FeCqAAAA: Received request to upgrade to websocket
+2026-07-07 00:39:26,298 - INFO - emitting event "online_users" to all [/]
+2026-07-07 00:39:26,299 - INFO - emitting event "attack_mode" to 5MQ_YuhYTVGCcuKHAAAC [/]
+2026-07-07 00:39:26,302 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet MESSAGE data 2["online_users",["lny","lvh"]]
+2026-07-07 00:39:26,303 - INFO - -0ZNHGd5LUsBC256AAAB: Received request to upgrade to websocket
+2026-07-07 00:39:26,303 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-07 00:39:26,305 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:26] "GET /socket.io/?EIO=4&transport=polling&t=PyuWt7H&sid=_pMnyADEyhO4FeCqAAAA HTTP/1.1" 200 -
+2026-07-07 00:39:26,304 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet MESSAGE data 2["online_users",["lny","lvh"]]
+2026-07-07 00:39:26,311 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet MESSAGE data 0{"sid":"5MQ_YuhYTVGCcuKHAAAC"}
+2026-07-07 00:39:26,315 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:26] "GET /socket.io/?EIO=4&transport=polling&t=PyuWt7H&sid=-0ZNHGd5LUsBC256AAAB HTTP/1.1" 200 -
+2026-07-07 00:39:26,315 - INFO - emitting event "attack_mode" to FUEsd3xYq9lmdErkAAAD [/]
+2026-07-07 00:39:26,316 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:26] "POST /socket.io/?EIO=4&transport=polling&t=PyuWt7E&sid=-0ZNHGd5LUsBC256AAAB HTTP/1.1" 200 -
+2026-07-07 00:39:26,319 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-07 00:39:26,320 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet MESSAGE data 0{"sid":"FUEsd3xYq9lmdErkAAAD"}
+2026-07-07 00:39:26,321 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:26] "POST /socket.io/?EIO=4&transport=polling&t=PyuWt7D&sid=_pMnyADEyhO4FeCqAAAA HTTP/1.1" 200 -
+2026-07-07 00:39:26,330 - INFO - _pMnyADEyhO4FeCqAAAA: Upgrade to websocket successful
+2026-07-07 00:39:26,332 - INFO - -0ZNHGd5LUsBC256AAAB: Upgrade to websocket successful
+2026-07-07 00:39:28,987 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:28] "GET /chat HTTP/1.1" 200 -
+2026-07-07 00:39:29,062 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:29] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-07-07 00:39:29,063 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:29] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-07-07 00:39:29,068 - INFO - Xqakw5jOe3ArdNzSAAAE: Sending packet OPEN data {'sid': 'Xqakw5jOe3ArdNzSAAAE', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2026-07-07 00:39:29,069 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:29] "GET /socket.io/?EIO=4&transport=polling&t=PyuWtog HTTP/1.1" 200 -
+2026-07-07 00:39:29,141 - INFO - Xqakw5jOe3ArdNzSAAAE: Received packet MESSAGE data 0
+2026-07-07 00:39:29,145 - INFO - Xqakw5jOe3ArdNzSAAAE: Received request to upgrade to websocket
+2026-07-07 00:39:29,146 - INFO - emitting event "online_users" to all [/]
+2026-07-07 00:39:29,149 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet MESSAGE data 2["online_users",["lny","lvh","tdk"]]
+2026-07-07 00:39:29,154 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet MESSAGE data 2["online_users",["lny","lvh","tdk"]]
+2026-07-07 00:39:29,156 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:29] "GET /socket.io/?EIO=4&transport=polling&t=PyuWtpm&sid=Xqakw5jOe3ArdNzSAAAE HTTP/1.1" 200 -
+2026-07-07 00:39:29,156 - INFO - Xqakw5jOe3ArdNzSAAAE: Sending packet MESSAGE data 2["online_users",["lny","lvh","tdk"]]
+2026-07-07 00:39:29,157 - INFO - emitting event "attack_mode" to P-2dz6p0mIphz3PkAAAF [/]
+2026-07-07 00:39:29,157 - INFO - Xqakw5jOe3ArdNzSAAAE: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-07 00:39:29,157 - INFO - Xqakw5jOe3ArdNzSAAAE: Sending packet MESSAGE data 0{"sid":"P-2dz6p0mIphz3PkAAAF"}
+2026-07-07 00:39:29,158 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:29] "POST /socket.io/?EIO=4&transport=polling&t=PyuWtpl&sid=Xqakw5jOe3ArdNzSAAAE HTTP/1.1" 200 -
+2026-07-07 00:39:29,163 - INFO - Xqakw5jOe3ArdNzSAAAE: Upgrade to websocket successful
+2026-07-07 00:39:31,238 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:31] "GET / HTTP/1.1" 200 -
+2026-07-07 00:39:32,963 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:32] "GET /register HTTP/1.1" 200 -
+2026-07-07 00:39:32,976 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:32] "[36mGET /static/css/register.css HTTP/1.1[0m" 304 -
+2026-07-07 00:39:47,508 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:47] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-07-07 00:39:47,512 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:47] "GET / HTTP/1.1" 200 -
+2026-07-07 00:39:47,521 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:47] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2026-07-07 00:39:51,278 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:39:51,279 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:39:51,280 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:39:51,280 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:39:54,069 - INFO - Xqakw5jOe3ArdNzSAAAE: Sending packet PING data None
+2026-07-07 00:39:55,603 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:55] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-07-07 00:39:55,611 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:55] "GET /chat HTTP/1.1" 200 -
+2026-07-07 00:39:55,628 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:55] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-07-07 00:39:55,629 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:55] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-07-07 00:39:55,637 - INFO - K_L5rhK781uQ2B02AAAG: Sending packet OPEN data {'sid': 'K_L5rhK781uQ2B02AAAG', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2026-07-07 00:39:55,639 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:55] "GET /socket.io/?EIO=4&transport=polling&t=PyuW-Ho HTTP/1.1" 200 -
+2026-07-07 00:39:55,653 - INFO - K_L5rhK781uQ2B02AAAG: Received packet MESSAGE data 0
+2026-07-07 00:39:55,656 - INFO - emitting event "online_users" to all [/]
+2026-07-07 00:39:55,657 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet MESSAGE data 2["online_users",["lny","lvh","tdk","chinh"]]
+2026-07-07 00:39:55,658 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet MESSAGE data 2["online_users",["lny","lvh","tdk","chinh"]]
+2026-07-07 00:39:55,658 - INFO - Xqakw5jOe3ArdNzSAAAE: Sending packet MESSAGE data 2["online_users",["lny","lvh","tdk","chinh"]]
+2026-07-07 00:39:55,661 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:55] "GET /socket.io/?EIO=4&transport=polling&t=PyuW-I1&sid=K_L5rhK781uQ2B02AAAG HTTP/1.1" 200 -
+2026-07-07 00:39:55,659 - INFO - K_L5rhK781uQ2B02AAAG: Sending packet MESSAGE data 2["online_users",["lny","lvh","tdk","chinh"]]
+2026-07-07 00:39:55,662 - INFO - K_L5rhK781uQ2B02AAAG: Received request to upgrade to websocket
+2026-07-07 00:39:55,663 - INFO - emitting event "attack_mode" to sDlP63UwQh2snHQUAAAH [/]
+2026-07-07 00:39:55,664 - INFO - K_L5rhK781uQ2B02AAAG: Sending packet MESSAGE data 2["attack_mode",{"ciphertext":false,"sequence":false,"wrong_key":false,"fake_sender":false}]
+2026-07-07 00:39:55,666 - INFO - K_L5rhK781uQ2B02AAAG: Sending packet MESSAGE data 0{"sid":"sDlP63UwQh2snHQUAAAH"}
+2026-07-07 00:39:55,666 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:55] "POST /socket.io/?EIO=4&transport=polling&t=PyuW-I0&sid=K_L5rhK781uQ2B02AAAG HTTP/1.1" 200 -
+2026-07-07 00:39:55,686 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:55] "GET /socket.io/?EIO=4&transport=polling&t=PyuW-IK&sid=K_L5rhK781uQ2B02AAAG HTTP/1.1" 200 -
+2026-07-07 00:39:55,694 - INFO - K_L5rhK781uQ2B02AAAG: Upgrade to websocket successful
+2026-07-07 00:39:59,000 - INFO - emitting event "online_users" to all [/]
+2026-07-07 00:39:59,001 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet MESSAGE data 2["online_users",["lny","lvh","chinh"]]
+2026-07-07 00:39:59,001 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet MESSAGE data 2["online_users",["lny","lvh","chinh"]]
+2026-07-07 00:39:59,001 - INFO - Xqakw5jOe3ArdNzSAAAE: Sending packet MESSAGE data 2["online_users",["lny","lvh","chinh"]]
+2026-07-07 00:39:59,001 - INFO - K_L5rhK781uQ2B02AAAG: Sending packet MESSAGE data 2["online_users",["lny","lvh","chinh"]]
+2026-07-07 00:39:59,002 - INFO - 127.0.0.1 - - [07/Jul/2026 00:39:59] "GET /socket.io/?EIO=4&transport=websocket&sid=Xqakw5jOe3ArdNzSAAAE HTTP/1.1" 200 -
+2026-07-07 00:40:16,280 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:40:16,281 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:40:16,283 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:40:16,283 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:40:20,639 - INFO - K_L5rhK781uQ2B02AAAG: Sending packet PING data None
+2026-07-07 00:40:20,642 - INFO - K_L5rhK781uQ2B02AAAG: Received packet PONG data 
+2026-07-07 00:40:41,284 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:40:41,284 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:40:41,286 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:40:41,286 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:40:45,643 - INFO - K_L5rhK781uQ2B02AAAG: Sending packet PING data None
+2026-07-07 00:40:45,644 - INFO - K_L5rhK781uQ2B02AAAG: Received packet PONG data 
+2026-07-07 00:40:51,853 - INFO - 127.0.0.1 - - [07/Jul/2026 00:40:51] "GET /register HTTP/1.1" 200 -
+2026-07-07 00:40:51,860 - INFO - 127.0.0.1 - - [07/Jul/2026 00:40:51] "[36mGET /static/css/register.css HTTP/1.1[0m" 304 -
+2026-07-07 00:41:00,950 - INFO - 127.0.0.1 - - [07/Jul/2026 00:41:00] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-07-07 00:41:00,953 - INFO - 127.0.0.1 - - [07/Jul/2026 00:41:00] "GET / HTTP/1.1" 200 -
+2026-07-07 00:41:00,963 - INFO - 127.0.0.1 - - [07/Jul/2026 00:41:00] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2026-07-07 00:41:04,109 - INFO - emitting event "online_users" to all [/]
+2026-07-07 00:41:04,110 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet MESSAGE data 2["online_users",["lny","lvh"]]
+2026-07-07 00:41:04,111 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet MESSAGE data 2["online_users",["lny","lvh"]]
+2026-07-07 00:41:04,111 - INFO - K_L5rhK781uQ2B02AAAG: Sending packet MESSAGE data 2["online_users",["lny","lvh"]]
+2026-07-07 00:41:04,112 - INFO - 127.0.0.1 - - [07/Jul/2026 00:41:04] "GET /socket.io/?EIO=4&transport=websocket&sid=K_L5rhK781uQ2B02AAAG HTTP/1.1" 200 -
+2026-07-07 00:41:06,286 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:41:06,287 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:41:06,288 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:41:06,288 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:41:31,289 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:41:31,289 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:41:31,291 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:41:31,291 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:41:56,292 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:41:56,292 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:41:56,293 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:41:56,294 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:42:21,294 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:42:21,295 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:42:21,296 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:42:21,296 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:42:46,297 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:42:46,297 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:42:46,298 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:42:46,298 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:43:11,299 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:43:11,299 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:43:11,300 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:43:11,300 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:43:36,302 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:43:36,302 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:43:36,303 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:43:36,304 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:44:01,305 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:44:01,306 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:44:01,308 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:44:01,309 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:44:26,310 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:44:26,310 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:44:26,312 - INFO - -0ZNHGd5LUsBC256AAAB: Received packet PONG data 
+2026-07-07 00:44:26,312 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:44:51,313 - INFO - -0ZNHGd5LUsBC256AAAB: Sending packet PING data None
+2026-07-07 00:44:51,313 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:44:51,314 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:45:16,315 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:45:16,316 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:45:16,594 - INFO - -0ZNHGd5LUsBC256AAAB: Client is gone, closing socket
+2026-07-07 00:45:16,595 - INFO - emitting event "online_users" to all [/]
+2026-07-07 00:45:16,595 - INFO - -0ZNHGd5LUsBC256AAAB: Client is gone, closing socket
+2026-07-07 00:45:16,595 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet MESSAGE data 2["online_users",["lvh"]]
+2026-07-07 00:45:16,595 - INFO - -0ZNHGd5LUsBC256AAAB: Client is gone, closing socket
+2026-07-07 00:45:16,596 - INFO - 127.0.0.1 - - [07/Jul/2026 00:45:16] "GET /socket.io/?EIO=4&transport=websocket&sid=-0ZNHGd5LUsBC256AAAB HTTP/1.1" 200 -
+2026-07-07 00:45:41,317 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:45:41,318 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:46:06,319 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:46:06,320 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:46:31,330 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:46:31,343 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:46:56,344 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:46:56,345 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:47:21,347 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:47:21,349 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:47:46,350 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:47:46,351 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:48:11,351 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:48:11,352 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:48:36,353 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:48:36,353 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:49:01,354 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:49:01,356 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:49:26,358 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:49:26,359 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:49:51,360 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:49:51,361 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:50:16,363 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:50:16,364 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:50:41,365 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:50:41,366 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:51:06,366 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:51:06,368 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:51:31,368 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:51:31,370 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:51:56,371 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:51:56,372 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:52:21,373 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:52:21,374 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:52:46,375 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:52:46,377 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:53:11,378 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:53:11,379 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:53:36,380 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:53:36,381 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:54:01,382 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:54:01,383 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:54:26,384 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:54:26,385 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:54:51,386 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:54:51,387 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:55:16,389 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:55:16,390 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:55:41,390 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:55:41,392 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:56:06,393 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:56:06,394 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:56:31,395 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:56:31,397 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:56:56,398 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:56:56,399 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:57:21,400 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:57:21,401 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:57:46,402 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:57:46,404 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:58:11,406 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:58:11,407 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:58:36,408 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:58:36,409 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:59:01,410 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:59:01,412 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:59:26,414 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:59:26,415 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 00:59:51,416 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 00:59:51,417 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 01:00:16,418 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 01:00:16,419 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 
+2026-07-07 01:00:41,420 - INFO - _pMnyADEyhO4FeCqAAAA: Sending packet PING data None
+2026-07-07 01:00:41,421 - INFO - _pMnyADEyhO4FeCqAAAA: Received packet PONG data 

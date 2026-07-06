@@ -281,8 +281,8 @@ bash
 flask run
 
 Mở trình duyệt:
-
 http://127.0.0.1:5000
+
 
 ---
 
