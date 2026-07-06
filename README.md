@@ -1,62 +1,66 @@
-# 🔐 End-to-End Secure Text Chat v2 (Web-Based)
+# End-to-End Secure Text Chat v2 (Phiên bản Web)
 
-## FIT4012 – Network and Information Security
-
-### Student Information
-
-Nhóm 2
-Họ và tên sinh viên:
-1. Trần Đình Khiêm
-2. La Văn Hải
-3. Lương Như ý
-4. Trương Văn Ban
+## FIT4012 – Nhập môn An toàn Bảo mật Thông tin
 
 ---
 
-# Project Overview
+# Thông tin sinh viên
 
-End-to-End Secure Text Chat v2 is a secure real-time web-based chat application developed as the final project for the Network and Information Security course.
+**Nhóm 2**
 
-The system demonstrates how modern cryptographic techniques can be integrated into a messaging application to provide:
+**Họ và tên sinh viên:**
 
-- Confidentiality
-- Integrity
-- Authentication
-- Replay attack protection
-- Secure session key management
-
-Unlike a traditional chat application, every message exchanged between users is protected using authenticated encryption and digital signatures before transmission.
-
-The project also includes an interactive web interface that allows users to simulate common attacks in order to demonstrate how the implemented security mechanisms defend against them.
+- Trần Đình Khiêm
+- La Văn Hải
+- Lương Như Ý
+- Trương Văn Ban
 
 ---
 
-# Main Features
+# Tổng quan dự án
 
-## User Authentication
+End-to-End Secure Text Chat v2 là một ứng dụng trò chuyện thời gian thực trên nền tảng web được phát triển làm bài tập lớn môn **Nhập môn An toàn Bảo mật Thông tin**.
 
-- User Registration
-- User Login
-- Password hashing before storage
-- Online user management
+Hệ thống minh họa cách các kỹ thuật mật mã hiện đại được tích hợp vào một ứng dụng nhắn tin nhằm cung cấp:
 
----
+- Tính bí mật (Confidentiality)
+- Tính toàn vẹn (Integrity)
+- Tính xác thực (Authentication)
+- Chống tấn công phát lại (Replay Attack Protection)
+- Quản lý khóa phiên an toàn (Secure Session Key Management)
 
-## Secure Communication
+Không giống như các ứng dụng trò chuyện thông thường, mọi tin nhắn được trao đổi giữa các người dùng đều được bảo vệ bằng **mã hóa có xác thực** và **chữ ký số** trước khi truyền qua mạng.
 
-Each chat session includes:
-
-- RSA-OAEP session key exchange
-- AES-GCM authenticated encryption
-- RSA digital signature
-- Message authentication
-- Message integrity verification
+Dự án cũng bao gồm giao diện web trực quan cho phép người dùng mô phỏng các cuộc tấn công phổ biến nhằm minh họa cách các cơ chế bảo mật được triển khai để bảo vệ hệ thống.
 
 ---
 
-## Secure Message Packet
+# Các chức năng chính
 
-Every transmitted message contains:
+## Xác thực người dùng
+
+- Đăng ký tài khoản
+- Đăng nhập
+- Băm mật khẩu trước khi lưu trữ
+- Quản lý người dùng đang trực tuyến
+
+---
+
+## Giao tiếp an toàn
+
+Mỗi phiên trò chuyện bao gồm:
+
+- Trao đổi khóa phiên bằng RSA-OAEP
+- Mã hóa xác thực bằng AES-GCM
+- Chữ ký số RSA
+- Xác thực thông điệp
+- Kiểm tra tính toàn vẹn của dữ liệu
+
+---
+
+## Gói tin nhắn an toàn
+
+Mỗi tin nhắn được truyền đi bao gồm:
 
 - Message ID
 - Session ID
@@ -66,150 +70,150 @@ Every transmitted message contains:
 - Ciphertext
 - Digital Signature
 
-These fields are used to detect replay attacks and validate communication integrity.
+Các trường dữ liệu này được sử dụng để phát hiện tấn công phát lại và xác minh tính toàn vẹn của quá trình truyền thông.
 
 ---
 
-## Replay Protection
+## Chống tấn công Replay
 
-The system prevents replay attacks using:
+Hệ thống ngăn chặn tấn công phát lại bằng cách sử dụng:
 
-- Unique Message ID
-- Sequence Number validation
+- Message ID duy nhất
+- Kiểm tra Sequence Number
 - Replay Detector
-- Packet registration
+- Đăng ký các gói tin đã xử lý
 
-If an attacker replays an old packet, the system immediately detects and rejects it.
-
----
-
-## Session Key Rotation
-
-To reduce long-term key exposure, the application automatically rotates the AES session key after every five successfully transmitted messages.
-
-Benefits:
-
-- Forward secrecy simulation
-- Reduced impact if one session key is compromised
-- Demonstration of secure session lifecycle management
+Nếu kẻ tấn công gửi lại một gói tin cũ, hệ thống sẽ phát hiện và từ chối ngay lập tức.
 
 ---
 
-## Security Demonstration
+## Thay đổi khóa phiên (Session Key Rotation)
 
-The web interface includes multiple attack simulation modes.
+Để giảm nguy cơ lộ khóa trong thời gian dài, ứng dụng sẽ tự động thay đổi khóa phiên AES sau mỗi năm tin nhắn được gửi thành công.
 
-### Valid Message
+### Lợi ích:
 
-Normal encrypted communication.
+- Mô phỏng Perfect Forward Secrecy
+- Giảm thiểu tác động nếu một khóa phiên bị lộ
+- Minh họa vòng đời quản lý khóa phiên an toàn
 
-Expected result:
+---
+
+# Minh họa các cơ chế bảo mật
+
+Giao diện web cung cấp nhiều chế độ mô phỏng tấn công.
+
+---
+
+## Valid Message
+
+Trao đổi tin nhắn mã hóa bình thường.
+
+**Kết quả mong đợi:**
 
 VALID
 
 ---
 
-### Replay Attack
+## Replay Attack
 
-Resends an already processed packet.
+Gửi lại một gói tin đã được xử lý trước đó.
 
-Expected result:
-
+**Kết quả mong đợi:**
 
 REPLAY ATTACK DETECTED
 
----
 
-### Modify Ciphertext
+## Modify Ciphertext
 
-Randomly modifies encrypted ciphertext.
+Thay đổi ngẫu nhiên nội dung Ciphertext.
 
-Expected result:
+**Kết quả mong đợi:**
 
 INVALID SIGNATURE
 
-or
+hoặc
 
 DECRYPTION FAILED
 
 ---
 
-### Modify Sequence Number
+## Modify Sequence Number
 
-Changes the packet sequence number.
+Thay đổi Sequence Number của gói tin.
 
-Expected result:
+**Kết quả mong đợi:**
 
 INVALID SEQUENCE
 
 ---
 
-### Wrong Session Key
+## Wrong Session Key
 
-Attempts decryption using an incorrect AES session key.
+Giải mã bằng khóa AES phiên không đúng.
 
-Expected result:
+**Kết quả mong đợi:**
 
 DECRYPTION FAILED
 
 ---
 
-### Fake Sender
+## Fake Sender
 
-Attempts to forge the sender identity.
+Giả mạo danh tính người gửi.
 
-Expected result:
+**Kết quả mong đợi:**
 
 INVALID SIGNATURE
 
 ---
 
-# Security Technologies
+# Công nghệ bảo mật sử dụng
 
-| Component | Algorithm |
-|-----------|-----------|
-| Symmetric Encryption | AES-GCM |
-| Session Key Exchange | RSA-OAEP |
-| Digital Signature | RSA |
-| Hash Function | SHA-256 |
-| Replay Protection | Message ID + Sequence Number |
-| Session Management | Automatic Key Rotation |
+| Thành phần | Thuật toán |
+|------------|------------|
+| Mã hóa đối xứng | AES-GCM |
+| Trao đổi khóa phiên | RSA-OAEP |
+| Chữ ký số | RSA |
+| Hàm băm | SHA-256 |
+| Chống Replay | Message ID + Sequence Number |
+| Quản lý phiên | Automatic Key Rotation |
 
 ---
 
-# Project Architecture
+# Kiến trúc dự án
 
 Browser A
-      │
-      │
-Socket.IO
-      │
-      ▼
- Flask Web Server
-      │
-      │
+    │
+    │
+ Socket.IO
+    │
+    ▼
+Flask Web Server
+    │
+    │
 Socket Handler
-      │
-      ├───────────────┐
-      │               │
-      ▼               ▼
-Session Manager   Replay Detector
-      │               │
-      ▼               ▼
- Chat Engine     Packet Validation
-      │
-      ▼
- AES-GCM Encryption
-      │
-      ▼
- RSA Signature
-      │
-      ▼
- Browser B
+    │
+ ├───────────────┐
+ │               │
+ ▼               ▼
+Session Manager  Replay Detector
+ │               │
+ ▼               ▼
+Chat Engine   Packet Validation
+ │
+ ▼
+AES-GCM Encryption
+ │
+ ▼
+RSA Signature
+ │
+ ▼
+Browser B
 
 ---
 
-# Project Structure
+# Cấu trúc dự án
 
 FIT4012-Secure-Chat
 │
@@ -250,60 +254,53 @@ FIT4012-Secure-Chat
 
 ---
 
-# Installation
+# Cài đặt
 
-Clone the repository:
+Clone repository:
 
 bash
-git clone <repository-url>
+git clone
 cd FIT4012-Secure-Chat
 
-Install dependencies:
+
+Cài đặt thư viện:
 
 bash
 pip install -r requirements.txt
 
 ---
 
-# Run the Application
+# Chạy chương trình
 
-Start the Flask server:
-
+Khởi động Flask Server:
 bash
 python web/app.py
 
-or
-
+hoặc
 bash
 flask run
 
-Open the browser:
+Mở trình duyệt:
 
 http://127.0.0.1:5000
 
 ---
 
-# Usage
+# Hướng dẫn sử dụng
 
-1. Register two users.
-
-2. Login.
-
-3. Open chat.
-
-4. Select another online user.
-
-5. Send encrypted messages.
-
-6. Observe the Security Information panel.
-
-7. Enable attack simulation modes to verify security protections.
+- Đăng ký hai tài khoản.
+- Đăng nhập.
+- Mở cửa sổ trò chuyện.
+- Chọn một người dùng đang trực tuyến.
+- Gửi tin nhắn đã được mã hóa.
+- Quan sát bảng **Security Information**.
+- Bật các chế độ mô phỏng tấn công để kiểm tra các cơ chế bảo vệ.
 
 ---
 
-# Security Information Panel
+# Bảng Security Information
 
-For every message, the application displays:
+Đối với mỗi tin nhắn, hệ thống hiển thị:
 
 - Plaintext
 - AES Ciphertext
@@ -315,13 +312,13 @@ For every message, the application displays:
 - Timestamp
 - Security Status
 
-This allows users to observe how each security mechanism operates in real time.
+Điều này cho phép người dùng quan sát cách từng cơ chế bảo mật hoạt động theo thời gian thực.
 
 ---
 
-# Testing
+# Kiểm thử
 
-The project includes security tests for:
+Dự án bao gồm các bài kiểm thử bảo mật cho:
 
 - Valid Message
 - Replay Attack
@@ -331,16 +328,15 @@ The project includes security tests for:
 - Fake Sender
 - Session Key Rotation
 
-Screenshots and results are available in:
-
+Ảnh chụp màn hình và kết quả được lưu tại:
 
 test_report/
 
 ---
 
-# Documentation
+# Tài liệu
 
-Project documentation includes:
+Dự án bao gồm các tài liệu:
 
 - Protocol Design
 - Threat Model
@@ -348,7 +344,7 @@ Project documentation includes:
 - Benchmark Report
 - Sequence Diagrams
 
-Located in:
+Được lưu tại:
 
 docs/
 diagram/
@@ -357,32 +353,32 @@ test_report/
 
 ---
 
-# Educational Purpose
+# Mục đích giáo dục
 
-This project is developed solely for educational purposes as part of the FIT4012 Network and Information Security course.
+Dự án được phát triển hoàn toàn cho mục đích học tập trong khuôn khổ môn học **FIT4012 – Nhập môn An toàn Bảo mật Thông tin**.
 
-The implemented attack modes are demonstrations intended to illustrate how secure communication protocols defend against common attacks and should not be used for malicious activities.
-
----
-
-# Future Improvements
-
-Potential future enhancements include:
-
-- Perfect Forward Secrecy using ECDH (X25519)
-- Multi-user group chat
-- Secure cloud key management
-- Password hashing with Argon2 or bcrypt
-- Database-backed user management
-- TLS deployment
-- Mobile client support
+Các chế độ mô phỏng tấn công được xây dựng nhằm minh họa cách các giao thức truyền thông an toàn chống lại các hình thức tấn công phổ biến và không được sử dụng cho bất kỳ mục đích xấu nào.
 
 ---
 
-# Author
+# Hướng phát triển
+
+Các hướng phát triển trong tương lai bao gồm:
+
+- Perfect Forward Secrecy sử dụng ECDH (X25519)
+- Trò chuyện nhóm nhiều người
+- Quản lý khóa trên nền tảng đám mây
+- Băm mật khẩu bằng Argon2 hoặc bcrypt
+- Quản lý người dùng bằng cơ sở dữ liệu
+- Triển khai TLS
+- Hỗ trợ ứng dụng di động
+
+---
+
+# Tác giả
 
 **Trần Khiêm**
 
-FIT4012 – Network and Information Security
+FIT4012 – Nhập môn An toàn Bảo mật Thông tin
 
-End-to-End Secure Text Chat v2
+**End-to-End Secure Text Chat v2**
